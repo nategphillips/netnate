@@ -37,4 +37,4 @@ weight = 30
 
 [module]
     [module.hugoVersion]
-        min = '0.139.3'
+        min = '0.140.1'

@@ -1,6 +1,5 @@
 +++
 title = 'posts'
 draft = false
+math = true
 +++
-
-Whatever I feel like talking about.

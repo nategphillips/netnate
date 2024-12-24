@@ -3,7 +3,7 @@ title = 'natex'
 date = 2024-02-28
 draft = false
 tags = ['computing']
-summary = 'A custom LaTeX package.'
+summary = 'My custom $\LaTeX$ package.'
 [params]
     math = true
 +++
