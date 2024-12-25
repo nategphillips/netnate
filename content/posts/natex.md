@@ -42,7 +42,7 @@ Macros are important beyond their brevity. Say you wanted to use a different scr
 
 If your experience is anything like mine, there will come a point where you've built up a nest egg of familiar macros which then get copied and pasted into all newly created documents ad nauseam. Why not abstract the process again and create a custom package? Just import the package and use the included macros without all the copy-paste nonsense. Beautiful.
 
-## [natex](https://github.com/amilkyboi/natex)
+## [natex](https://github.com/nategphillips/natex)
 
 In the past, I used the `physics` package quite regularly since it had a bunch of macros that were generally useful and easy to remember. It covered most of my use cases and had notation that I liked, particularly for vectors and derivatives. It's somewhat of a controversial package in the $\LaTeX$ community because of a myriad of issues, some of which are expounded upon in [this](https://tex.stackexchange.com/questions/471532/alternatives-to-the-physics-package) post.
 
@@ -50,4 +50,4 @@ In general, it's better for a package to do one thing well rather than a bunch o
 
 I describe `natex` as "a collection of commands focused on consistent notation for engineering and physics applications," which is an accurate description of what I'm trying to do. To be clear, this package isn't meant for others to use, it's just something which allows me to save time and effectively standardize my writing process. Having a consistent look and feel across documents is underrated and dramatically improves the quality of techincal writing. If you're already using $\LaTeX$, you likely understand the importance of typesetting and have devoted a nontrivial amount of time learning an archaic system just to look down on Word users. Invest the extra time to create a custom package, then relish in the glory of having better looking papers than 90% of academic journals.
 
-The basic structure of `natex` involves shorthand commands for various things, including vectors, automatic bracing, and matrices. I use a collection of packages to achieve this: `amssymb`, `bm`, `braket`, `mathtools`, and `physics2`. The package is easy to understand, and the `.sty` file is only 69 lines long. I've made a nice PDF explaining all the included commands, including their use and example output. Source code is [here](https://github.com/amilkyboi/natex).
+The basic structure of `natex` involves shorthand commands for various things, including vectors, automatic bracing, and matrices. I use a collection of packages to achieve this: `amssymb`, `bm`, `braket`, `mathtools`, and `physics2`. The package is easy to understand, and the `.sty` file is only 69 lines long. I've made a nice PDF explaining all the included commands, including their use and example output. Source code is [here](https://github.com/nategphillips/natex).

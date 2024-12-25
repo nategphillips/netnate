@@ -42,7 +42,7 @@ Packages I use depending on the type and scale of the document itself.
 15. [`mhchem`](https://ctan.org/pkg/mhchem) - typesetting for chemical molecular formulae and equations
 16. [`minted`](https://ctan.org/pkg/minted) - syntax highlighting for all sorts of source code using the [Pygments](https://pygments.org) library
 17. [`multicol`](https://ctan.org/pkg/multicol) - can be used to have multiple columns of text, I primarily use it for 2-column lists
-18. [`natex`](https://github.com/amilkyboi/natex) - shameless plug, who knew I would use my own package
+18. [`natex`](https://github.com/nategphillips/natex) - shameless plug, who knew I would use my own package
 19. [`pgfplots`](https://ctan.org/pkg/pgfplots) - draws high-quality function plots in normal or logarithmic scaling with a user-friendly interface
 20. [`siunitx`](https://ctan.org/pkg/siunitx) - a comprehensive SI unit package that includes macros for scientific notation
 21. [`tcolorbox`](https://ctan.org/pkg/tcolorbox) - nicely formatted and customizable boxes for examples and worked problems
