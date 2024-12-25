@@ -1,8 +1,20 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" (lower .Title) site.Title }}{{ end }}</title>
+
+<title>
+    {{ if .IsHome }}
+    {{ site.Title }}
+    {{ else }}
+    {{ printf "%s | %s" (lower .Title) site.Title }}
+    {{ end }}
+</title>
+
+<meta name="description"
+    content="{{ if .Params.summary }}{{ .Params.summary }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
+<meta name="author" content="{{ .Site.Params.author.name }}" />
+
 {{ partialCached "head/css.html" . }}
 
 {{ if .Param "math" }}
-    {{ partialCached "math.html" . }}
+{{ partialCached "math.html" . }}
 {{ end }}

@@ -34,6 +34,9 @@ weight = 30
 [params]
     math = false
     toc = true
+    description = "Nathan's website."
+    [params.author]
+        name = 'Nathan Phillips'
 
 [module]
     [module.hugoVersion]
