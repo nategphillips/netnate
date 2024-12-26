@@ -1,6 +1,6 @@
 +++
 title = 'library'
-date = 2024-11-29
+date = 2024-12-26
 draft = false
 tags = ['books']
 summary = 'The books I own.'
@@ -12,17 +12,23 @@ summary = 'The books I own.'
 | ------------------------------ | --------------------------------------------------------------------------------------------------------------- | ------------- |
 | Atkins & Friedman              | *Molecular Quantum Mechanics*                                                                                   | 9780199541423 |
 | Atkins, Jones & Laverman       | *Chemical Principles: The Quest for Insight*                                                                    | 9781464183959 |
+| Bernath                        | *Spectra of Atoms and Molecules*                                                                                | 9780199382576 |
+| Brown & Carrington             | *Rotational Spectroscopy of Diatomic Molecules*                                                                 | 9780521530781 |
 | Hanson, Spearrin & Goldenstein | *Spectroscopy and Optical Diagnostics for Gases*                                                                | 9783319232515 |
 | Harris & Bertolucci            | *Symmetry and Spectroscopy: An Introduction to Vibrational and Electronic Spectroscopy*                         | 9780486661445 |
 | Herzberg                       | *Atomic Spectra and Atomic Structure*                                                                           | 9780486601151 |
 | Herzberg                       | *Molecular Spectra and Molecular Structure: Volume I - Spectra of Diatomic Molecules*                           | 9780442033859 |
 | Johnson, Lavelle & Ma          | *Student Solutions Manual to Accompany Chemical Principles: The Quest for Insight*                              | 9781319017569 |
+| Judd                           | *Angular Momentum Theory for Diatomic Molecules*                                                                | 9780123919502 |
+| Kovács                         | *Rotational Structure in the Spectra of Diatomic Molecules*                                                     | 9780852741429 |
 | Lefebvre-Brion & Field         | *The Spectra and Dynamics of Diatomic Molecules*                                                                | 9780124414556 |
 | Mallick                        | *Fundamentals of Molecular Spectroscopy*                                                                        | 9789819907908 |
 | McQuarrie & Simon              | *Physical Chemistry: A Molecular Approach*                                                                      | 9780935702996 |
+| Mizushima                      | *The Theory of Rotating Diatomic Molecules*                                                                     | 9780471611875 |
 | O'Connor                       | *Fundamentals of Chemistry*                                                                                     | 9780808715290 |
 | Pauling                        | *General Chemistry*                                                                                             | 9780716701484 |
 | Singh, Pike & Szafran          | *Microscale & Selected Macroscale Experiments for General & Advanced General Chemistry: An Innovative Approach* | 9780471585961 |
+| Zare                           | *Angular Momentum: Understanding Spatial Aspects in Chemistry and Physics*                                      | 9780471858928 |
 
 ## Classic Literature
 
@@ -209,6 +215,8 @@ summary = 'The books I own.'
 | Author                        | Title                                                                                                                         | ISBN          |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------- |
 | Bassichis                     | *Don't Panic: A Guide to Introductory Physics for Students of Science and Engineering - Volume II: Electricity and Magnetism* | 9780962467134 |
+| Boyd                          | *Nonlinear Optics*                                                                                                            | 9780323850575 |
+| Carroll                       | *Spacetime and Geometry: An Introduction to General Relativity*                                                               | 9781108488396 |
 | Chen                          | *Introduction to Plasma Physics and Controlled Fusion*                                                                        | 9783319223087 |
 | Eckbreth                      | *Laser Diagnostics for Combustion Temperature and Species*                                                                    | 9789056995324 |
 | Feynman, Leighton & Sands     | *Exercises for the Feynman Lectures on Physics*                                                                               | 9780465060719 |
@@ -235,6 +243,7 @@ summary = 'The books I own.'
 | Pedrotti, Pedrotti & Pedrotti | *Introduction to Optics*                                                                                                      | 9780131499331 |
 | Penrose                       | *The Road to Reality: A Complete Guide to the Laws of the Universe*                                                           | 9780679454434 |
 | Reed                          | *The Physics of the Manhattan Project*                                                                                        | 9783030613723 |
+| Schwartz                      | *Quantum Field Theory and the Standard Model*                                                                                 | 9781107034730 |
 | Sears, Zemansky & Young       | *University Physics: Part I*                                                                                                  | 9780201071962 |
 | Shankar                       | *Principles of Quantum Mechanics*                                                                                             | 9780306447907 |
 | Siegman                       | *Lasers*                                                                                                                      | 9780935702118 |
