@@ -18,6 +18,7 @@ summary = 'The books I own.'
 | Harris & Bertolucci            | *Symmetry and Spectroscopy: An Introduction to Vibrational and Electronic Spectroscopy*                         | 9780486661445 |
 | Herzberg                       | *Atomic Spectra and Atomic Structure*                                                                           | 9780486601151 |
 | Herzberg                       | *Molecular Spectra and Molecular Structure: Volume I - Spectra of Diatomic Molecules*                           | 9780442033859 |
+| Hougen                         | *The Calculation of Rotational Energy Levels and Rotational Line Intensities in Diatomic Molecules*             | LCCN: 604235  |
 | Johnson, Lavelle & Ma          | *Student Solutions Manual to Accompany Chemical Principles: The Quest for Insight*                              | 9781319017569 |
 | Judd                           | *Angular Momentum Theory for Diatomic Molecules*                                                                | 9780123919502 |
 | Kovács                         | *Rotational Structure in the Spectra of Diatomic Molecules*                                                     | 9780852741429 |
