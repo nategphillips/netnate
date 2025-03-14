@@ -7,25 +7,25 @@ stole some css from: https://github.com/nathan-barry/nathan.rs/blob/main/static/
 
 :root {
     --p-rosewater: #f5e0dc;
-    --p-flamingo:  #f2cdcd;
-    --p-pink:      #f5c2e7;
-    --p-mauve:     #cba6f7;
-    --p-red:       #f38ba8;
-    --p-maroon:    #eba0ac;
-    --p-peach:     #fab387;
-    --p-yellow:    #f9e2af;
-    --p-green:     #a6e3a1;
-    --p-teal:      #94e2d5;
-    --p-sky:       #89dceb;
-    --p-sapphire:  #74c7ec;
-    --p-blue:      #89b4fa;
-    --p-lavender:  #b4befe;
-    --p-text:      #cdd6f4;
-    --p-subtext:   #bac2de;
-    --p-overlay:   #6c7086;
-    --p-surface:   #313244;
-    --p-base:      #1e1e2e;
-    --p-crust:     #11111b;
+    --p-flamingo: #f2cdcd;
+    --p-pink: #f5c2e7;
+    --p-mauve: #cba6f7;
+    --p-red: #f38ba8;
+    --p-maroon: #eba0ac;
+    --p-peach: #fab387;
+    --p-yellow: #f9e2af;
+    --p-green: #a6e3a1;
+    --p-teal: #94e2d5;
+    --p-sky: #89dceb;
+    --p-sapphire: #74c7ec;
+    --p-blue: #89b4fa;
+    --p-lavender: #b4befe;
+    --p-text: #cdd6f4;
+    --p-subtext: #bac2de;
+    --p-overlay: #6c7086;
+    --p-surface: #313244;
+    --p-base: #1e1e2e;
+    --p-crust: #11111b;
 }
 
 /* body */
@@ -93,11 +93,15 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: var(--p-red);
+}
+
 a code {
     color: var(--p-teal);
 }
 
-a:hover {
+a code:hover {
     color: var(--p-red);
 }
 
@@ -154,9 +158,9 @@ td {
     padding: 0.5rem;
 }
 
-table > tbody > tr:first-child > td,
-table > tbody > tr:first-child > th {
-  border-top: 0.1rem solid var(--p-overlay);
+table>tbody>tr:first-child>td,
+table>tbody>tr:first-child>th {
+    border-top: 0.1rem solid var(--p-overlay);
 }
 
 /* code */
@@ -164,10 +168,9 @@ table > tbody > tr:first-child > th {
 code,
 pre,
 kbd {
-  font-family: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
-    monospace;
-  font-size: 85%;
-  color: var(--p-subtext);
+    font-family: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+    font-size: 85%;
+    color: var(--p-subtext);
 }
 
 p code,
@@ -178,18 +181,19 @@ table code,
     background-color: var(--p-base);
     padding: 0.2rem 0.4rem;
     border-radius: 4px;
+    white-space: nowrap;
 }
 
 pre {
-  padding: 1rem 1.5rem;
-  max-width: 100%;
-  overflow: auto;
-  border-radius: 4px;
+    padding: 1rem 1.5rem;
+    max-width: 100%;
+    overflow: auto;
+    border-radius: 4px;
 }
 
 pre code {
-  font-size: 95%;
-  position: relative;
+    font-size: 95%;
+    position: relative;
 }
 
 /* tags */
