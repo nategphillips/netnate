@@ -1,6 +1,6 @@
 +++
 title = 'library'
-date = 2024-12-26
+date = 2025-05-11
 draft = false
 tags = ['books']
 summary = 'The books I own.'
@@ -72,6 +72,7 @@ summary = 'The books I own.'
 | Author                        | Title                                                                               | ISBN          |
 | ----------------------------- | ----------------------------------------------------------------------------------- | ------------- |
 | Abbott & Doenhoff             | *Theory of Wing Sections: Including a Summary of Airfoil Data*                      | 9780486605869 |
+| Anderson                      | *Computational Fluid Dynamics*                                                      | 9780070016859 |
 | Anderson                      | *Fundamentals of Aerodynamics*                                                      | 9781259129919 |
 | Anderson                      | *Hypersonic and High-Temperature Gas Dynamics*                                      | 9781624105142 |
 | Anderson                      | *Introduction to Flight*                                                            | 9781307493078 |
@@ -106,6 +107,7 @@ summary = 'The books I own.'
 | Reddy                         | *An Introduction to the Finite Element Method*                                      | 9780070513556 |
 | Rich & Janos                  | *Skunk Works: A Personal Memoir of My Years at Lockheed*                            | 9780751515039 |
 | Schaub & Junkins              | *Analytical Mechanics of Space Systems*                                             | 9781624105210 |
+| Schlichting                   | *Boundary Layer Theory*                                                             | 9780070553347 |
 | Shigley & Mischke             | *Mechanical Engineering Design*                                                     | 9780070568990 |
 | Silver                        | *The ARRL Antenna Book for Radio Communications*                                    | 9781625951755 |
 | Silver                        | *The ARRL Handbook for Radio Communications*                                        | 9781625951571 |
@@ -116,6 +118,7 @@ summary = 'The books I own.'
 | Vance                         | *Rotordynamics of Turbomachinery*                                                   | 9780471802587 |
 | Wark                          | *Thermodynamics*                                                                    | 9780070682849 |
 | Warring                       | *Understanding Electronics*                                                         | 9780830602537 |
+| White                         | *Viscous Fluid Flow*                                                                | 9780070697102 |
 | Woods                         | *NASA Saturn V 1967-1973 (Apollo 4 to Apollo 17 & Skylab): Owners' Workshop Manual* | 9780857338280 |
 | Wylen & Sonntag               | *Fundamentals of Classical Thermodynamics*                                          | 9780471861737 |
 
