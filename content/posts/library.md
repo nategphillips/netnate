@@ -1,6 +1,6 @@
 +++
 title = 'library'
-date = 2025-05-11
+date = 2025-06-22
 draft = false
 tags = ['books']
 summary = 'The books I own.'
@@ -83,6 +83,7 @@ summary = 'The books I own.'
 | Bedford & Liechti             | *Mechanics of Materials*                                                            | 9783030220815 |
 | Carr                          | *How to Design and Build Electronic Instrumentation*                                | 9780830695607 |
 | Childs                        | *Turbomachinery Rotordynamics with Case Studies*                                    | 9780615852720 |
+| Cizmas                        | *Aerothermodynamics and Jet Propulsion*                                             | 9781108480758 |
 | Clark                         | *Ignition!: An Informal History of Liquid Rocket Propellants*                       | 9780813595832 |
 | Cochin & Plass                | *Analysis and Design of Dynamic Systems*                                            | 9780060413149 |
 | Cogdell                       | *Foundations of Electrical Engineering*                                             | 9780133295252 |
@@ -95,6 +96,7 @@ summary = 'The books I own.'
 | John                          | *Gas Dynamics*                                                                      | 9780205080144 |
 | Johnson                       | *Helicopter Theory*                                                                 | 9780486682303 |
 | Leishman                      | *Principles of Helicopter Aerodynamics*                                             | 9781107013353 |
+| Likins                        | *Elements of Engineering Mechanics*                                                 | 9780070378520 |
 | Loftin                        | *Quest for Performace: The Evolution of Modern Aircraft*                            | 9781503105027 |
 | McKerrow                      | *Introduction to Robotics*                                                          | 9780201182408 |
 | Metz                          | *Air Force Legends Number 220: Northrop YF-23 ATF*                                  | 9780989258371 |
@@ -219,6 +221,8 @@ summary = 'The books I own.'
 | Author                        | Title                                                                                                                         | ISBN          |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------- |
 | Bassichis                     | *Don't Panic: A Guide to Introductory Physics for Students of Science and Engineering - Volume II: Electricity and Magnetism* | 9780962467134 |
+| Becker, Becker & Schwarz      | *String Theory and M-Theory: A Modern Introduction*                                                                           | 9780521860697 |
+| Born & Wolf                   | *Principles of Optics*                                                                                                        | 9781108477437 |
 | Boyd                          | *Nonlinear Optics*                                                                                                            | 9780323850575 |
 | Carroll                       | *Spacetime and Geometry: An Introduction to General Relativity*                                                               | 9781108488396 |
 | Chen                          | *Introduction to Plasma Physics and Controlled Fusion*                                                                        | 9783319223087 |
@@ -233,6 +237,7 @@ summary = 'The books I own.'
 | Fowles                        | *Introduction to Modern Optics*                                                                                               | 9780486659572 |
 | Fox                           | *A Student's Guide to Atomic Physics*                                                                                         | 9781107188730 |
 | Garvin                        | *A Student's Guide to the Navier-Stokes Equations*                                                                            | 9781009236157 |
+| Goldstein, Poole & Safko      | *Classical Mechanics*                                                                                                         | 9780201657029 |
 | Griffiths                     | *Introduction to Electrodynamics*                                                                                             | 9781108420419 |
 | Griffiths                     | *Introduction to Elementary Particles*                                                                                        | 9783527406012 |
 | Griffiths & Schroeter         | *Introduction to Quantum Mechanics*                                                                                           | 9781107189638 |
@@ -242,7 +247,11 @@ summary = 'The books I own.'
 | Hecht                         | *Optics*                                                                                                                      | 9780805385663 |
 | Hecht                         | *The Laser Guidebook*                                                                                                         | 9780830642748 |
 | Hudson & Nelson               | *University Physics*                                                                                                          | 9780155929609 |
+| Jackson                       | *Classical Electrodynamics*                                                                                                   | 9780471431329 |
 | Krane                         | *Introductory Nuclear Physics*                                                                                                | 9780471805533 |
+| Landau & Lifshitz             | *Course of Theoretical Physics: Volume 1 - Mechanics*                                                                         | 9780750628969 |
+| Landau & Lifshitz             | *Course of Theoretical Physics: Volume 6 - Fluid Mechanics*                                                                   | 9787506242608 |
+| Nielsen & Chuang              | *Quantum Computing and Quantum Information*                                                                                   | 9781107002173 |
 | Nordling & Österman           | *Physics Handbook for Science and Engineering*                                                                                | 9789144044538 |
 | Pedrotti, Pedrotti & Pedrotti | *Introduction to Optics*                                                                                                      | 9780131499331 |
 | Penrose                       | *The Road to Reality: A Complete Guide to the Laws of the Universe*                                                           | 9780679454434 |
@@ -256,6 +265,7 @@ summary = 'The books I own.'
 | Susskind & Friedman           | *Special Relativity and Classical Field Theory: The Theoretical Minimum*                                                      | 9780141985015 |
 | Susskind & Hrabovsky          | *Classical Mechanics: The Theoretical Minimum*                                                                                | 9780141976228 |
 | Taylor                        | *Classical Mechanics*                                                                                                         | 9781891389221 |
+| Zangwill                      | *Modern Electrodynamics*                                                                                                      | 9780521896979 |
 
 ## Science
 
