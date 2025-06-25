@@ -1,6 +1,6 @@
 +++
 title = 'library'
-date = 2025-06-22
+date = 2025-06-25
 draft = false
 tags = ['books']
 summary = 'The books I own.'
@@ -121,6 +121,7 @@ summary = 'The books I own.'
 | Wark                          | *Thermodynamics*                                                                    | 9780070682849 |
 | Warring                       | *Understanding Electronics*                                                         | 9780830602537 |
 | White                         | *Viscous Fluid Flow*                                                                | 9780070697102 |
+| White                         | *Viscous Fluid Flow*                                                                | 9780072402315 |
 | Woods                         | *NASA Saturn V 1967-1973 (Apollo 4 to Apollo 17 & Skylab): Owners' Workshop Manual* | 9780857338280 |
 | Wylen & Sonntag               | *Fundamentals of Classical Thermodynamics*                                          | 9780471861737 |
 
@@ -185,6 +186,7 @@ summary = 'The books I own.'
 | Author          | Title                                                                | ISBN          |
 | --------------- | -------------------------------------------------------------------- | ------------- |
 | Agnew & Knapp   | *Linear Algebra with Applications*                                   | 9780534013646 |
+| Axler           | *Linear Algebra Done Right*                                          | 9783319110790 |
 | Boyce & DiPrima | *Elementary Differential Equations and Boundary Value Problems*      | 9780471093343 |
 | Orleans & Hart  | *Intermediate Algebra*                                               | Pre-ISBN      |
 | Schey           | *Div, Grad, Curl, and All That: An Informal Text on Vector Calculus* | 9780393925166 |
