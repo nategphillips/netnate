@@ -1,7 +1,7 @@
 +++
 title = 'radar'
-date = 2025-07-06
-draft = true
+date = 2025-07-07
+draft = false
 tags = ['weather']
 summary = 'An overview of various weather radar applications.'
 +++

@@ -1,7 +1,7 @@
 +++
 title = 'weather'
-date = 2025-07-06
-draft = true
+date = 2025-07-07
+draft = false
 tags = ['weather']
 summary = 'Useful weather resources.'
 +++
@@ -37,6 +37,9 @@ In the future, this will be a refined list of weather resources, each with a con
 - SHARPpy (sounding analysis and data visualization): <https://sharp.weather.ou.edu/dev>
 - Various goodies: <http://arctic.som.ou.edu/tburg>
 - FEMA national flood hazard viewer: <https://hazards-fema.maps.arcgis.com/apps/webappviewer/index.html?id=8b0adb51996444d4879338b5529aa9cd>
+- Nationwide watches, warnings, etc.: <https://wxwarn.affirmatech.com>
+- Meteorological training: <https://www.meted.ucar.edu/education_training>
+- Community maintained rain gauge network: <https://cocorahs.org>
 
 ## Link Aggregates
 
