@@ -10,7 +10,7 @@ Here, I present a general overview of some weather radar applications that I thi
 
 ## Standalone Applications
 
-### [AWIPS 2 CAVE](https://unidata.github.io/awips2/install/install-cave/)
+### [AWIPS II CAVE](https://unidata.github.io/awips2/install/install-cave/)
 
 - [Platforms](https://unidata.github.io/awips2/install/install-cave/#latest-cave-versions): Linux, macOS, Windows
 - Pricing: Free and [open-source](https://github.com/Unidata/awips2)
@@ -75,7 +75,7 @@ Here, I present a general overview of some weather radar applications that I thi
 
 ### [QuadWeather](https://radar.quadweather.com/)
 
-- Pricing: Free, with an account requirement.
+- Pricing: Free, with an account requirement
 - [Subscriptions](https://radar.quadweather.com/auth/account):
   - QuadWeather Extra: $29.99/yr or $3.99/mo
 - Levels: 2
