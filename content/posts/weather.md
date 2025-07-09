@@ -1,6 +1,6 @@
 +++
 title = 'weather'
-date = 2025-07-07
+date = 2025-07-08
 draft = false
 tags = ['weather']
 summary = 'Useful weather resources.'
@@ -40,6 +40,7 @@ In the future, this will be a refined list of weather resources, each with a con
 - Nationwide watches, warnings, etc.: <https://wxwarn.affirmatech.com>
 - Meteorological training: <https://www.meted.ucar.edu/education_training>
 - Community maintained rain gauge network: <https://cocorahs.org>
+- Radar color maps: <https://www.wxtools.org/reflectivity>
 
 ## Link Aggregates
 
