@@ -10,37 +10,69 @@ In the future, this will be a refined list of weather resources, each with a con
 
 ## Cool Stuff
 
-- Hub for lots of stuff: <https://www.weather.gov>
-- Graphical forecasts: <https://digital.weather.gov>
-- NEXRAD radar status: <https://radar2pub-bldr.ncep.noaa.gov>
-- MRMS product viewer: <https://mrms.nssl.noaa.gov/qvs/product_viewer>
-- CONUS NWS data: <https://www.wxtools.org/wx-hub>
-- NSSL CAMs (weather forecast models): <https://cams.nssl.noaa.gov>
-- NOAA nowCOAST: <https://nowcoast.noaa.gov>
-- NOAA/NWS Weather Prediction Center (WPC): <https://www.wpc.ncep.noaa.gov>
-- NOAA/NWS Storm Prediction Center (SPC): <https://www.spc.noaa.gov>
-- NOAA/NWS Climate Prediction Center (CPC): <https://www.cpc.ncep.noaa.gov>
-- NOAA/NWS National Hurricane Center (NHC): <https://www.nhc.noaa.gov>
-- Data aggregation: <https://www.weathernerds.org/home.html>
-- More data aggregation: <https://home.pivotalweather.com>
-- Tropical storm and hurricane tracking: <https://www.tropicaltidbits.com>
-- Even more data aggregation: <https://spaghettimodels.com>
-- College of DuPage NeXt Generation Weather Lab (satellite, radar, models): <https://weather.cod.edu>
-- NEXRADView (details of NEXRAD sites): <https://www.weather.gov/nl2/NEXRADView>
-- Year-round worldwide climate data: <https://weatherspark.com>
-- Historical tornado archive explorer: <https://tornadoarchive.com/explorer/2.3.1>
-- Damage Assessment Toolkit: <https://apps.dat.noaa.gov/StormDamage/DamageViewer>
-- Data aggregation (focused on tornadoes): <http://www.twisterdata.com>
-- Weather education: <https://www.theweatherprediction.com>
-- Weather forecasting books: <https://www.weathergraphics.com/books/index.shtml>
-- NOAA Weather and Climate Toolkit: <https://www.ncdc.noaa.gov/wct>
-- SHARPpy (sounding analysis and data visualization): <https://sharp.weather.ou.edu/dev>
-- Various goodies: <http://arctic.som.ou.edu/tburg>
-- FEMA national flood hazard viewer: <https://hazards-fema.maps.arcgis.com/apps/webappviewer/index.html?id=8b0adb51996444d4879338b5529aa9cd>
-- Nationwide watches, warnings, etc.: <https://wxwarn.affirmatech.com>
-- Meteorological training: <https://www.meted.ucar.edu/education_training>
-- Community maintained rain gauge network: <https://cocorahs.org>
-- Radar color maps: <https://www.wxtools.org/reflectivity>
+### [College of DuPage NeXt Generation Weather Lab](https://weather.cod.edu)
+
+### [COMET MetEd](https://www.meted.ucar.edu/education_training)
+
+### [Community Collaborative Rain, Hail, and Snow Network (CoCoRaHS)](https://cocorahs.org)
+
+### [FEMA National Flood Hazard Layer (NFHL) Viewer](https://hazards-fema.maps.arcgis.com/apps/webappviewer/index.html?id=8b0adb51996444d4879338b5529aa9cd)
+
+### [Mike's Weather Page](https://spaghettimodels.com)
+
+### [NOAA Damage Assessment Toolkit](https://apps.dat.noaa.gov/StormDamage/DamageViewer)
+
+### [NOAA Multi-Radar Multi-Sensor (MRMS) Product Viewer](https://mrms.nssl.noaa.gov/qvs/product_viewer)
+
+### [NOAA NEXRAD Radar Status](https://radar2pub-bldr.ncep.noaa.gov)
+
+### [NOAA nowCOAST](https://nowcoast.noaa.gov)
+
+### [NOAA NSSL Convection-Allowing Models (CAMs)](https://cams.nssl.noaa.gov)
+
+### [NOAA Weather and Climate Toolkit](https://www.ncdc.noaa.gov/wct)
+
+### [National Weather Service (NWS)](https://www.weather.gov)
+
+### [NWS Graphical Forecasts](https://digital.weather.gov)
+
+### [NWS Climate Prediction Center (CPC)](https://www.cpc.ncep.noaa.gov)
+
+### [NWS National Hurricane Center (NHC)](https://www.nhc.noaa.gov)
+
+### [NWS Storm Prediction Center (SPC)](https://www.spc.noaa.gov)
+
+### [NWS Weather Prediction Center (WPC)](https://www.wpc.ncep.noaa.gov)
+
+### [NWS NEXRADView](https://www.weather.gov/nl2/NEXRADView)
+
+### [Pivotal Weather](https://home.pivotalweather.com)
+
+### [SHARPpy](https://sharp.weather.ou.edu/dev)
+
+### [Space Weather](https://www.spaceweather.com)
+
+### [The Weather Prediction](https://www.theweatherprediction.com)
+
+### [Tomer Burg & PolarWx](http://arctic.som.ou.edu/tburg)
+
+### [Tornado Archive](https://tornadoarchive.com/explorer/2.3.1)
+
+### [Tropical Tidbits](https://www.tropicaltidbits.com)
+
+### [Twister Data](http://www.twisterdata.com)
+
+### [Weather Graphics](https://www.weathergraphics.com/books/index.shtml)
+
+### [Weathernerds](https://www.weathernerds.org/home.html)
+
+### [Weather Spark](https://weatherspark.com)
+
+### [Wx Hub](https://www.wxtools.org/wx-hub)
+
+### [Wx Tools Colormaps](https://www.wxtools.org/reflectivity)
+
+### [WXWarn](https://wxwarn.affirmatech.com)
 
 ## Link Aggregates
 
