@@ -20,9 +20,13 @@ In the future, this will be a refined list of weather resources, each with a con
 
 ### [Mike's Weather Page](https://spaghettimodels.com)
 
+### [NOAA CPC Soil Moisture](https://www.cpc.ncep.noaa.gov/products/Soilmst_Monitoring/US/Soilmst/Soilmst.shtml#)
+
 ### [NOAA Damage Assessment Toolkit](https://apps.dat.noaa.gov/StormDamage/DamageViewer)
 
 ### [NOAA Multi-Radar Multi-Sensor (MRMS) Product Viewer](https://mrms.nssl.noaa.gov/qvs/product_viewer)
+
+### [NOAA National Integrated Drought Information System (NIDIS)](https://www.drought.gov)
 
 ### [NOAA NEXRAD Radar Status](https://radar2pub-bldr.ncep.noaa.gov)
 
@@ -31,6 +35,8 @@ In the future, this will be a refined list of weather resources, each with a con
 ### [NOAA NSSL Convection-Allowing Models (CAMs)](https://cams.nssl.noaa.gov)
 
 ### [NOAA Weather and Climate Toolkit](https://www.ncdc.noaa.gov/wct)
+
+### [NOAA Weather Radios](https://www.weather.gov/mob/nwrhelp)
 
 ### [National Weather Service (NWS)](https://www.weather.gov)
 
@@ -50,7 +56,21 @@ In the future, this will be a refined list of weather resources, each with a con
 
 ### [SHARPpy](https://sharp.weather.ou.edu/dev)
 
+### [SounderPy Sounding Analysis](https://sounderpysoundings.anvil.app)
+
 ### [Space Weather](https://www.spaceweather.com)
+
+### [Texas A&M University (TAMU) AgriLife Weather](https://etweather.tamu.edu)
+
+### [TAMU Forest Service Burn Bans](https://tfsweb.tamu.edu/wildfire-and-other-disasters/burn-bans-and-information)
+
+### [TAMU HDWX Products](https://hdwx.tamu.edu/product-list)
+
+### [TAMU High-Definition Weather (HDWX)](https://hdwx.tamu.edu)
+
+### [TAMU Texas Weather Connection](https://twc.tamu.edu)
+
+### [TAMU Weather Data Interface](https://wdi.geos.tamu.edu)
 
 ### [The Weather Prediction](https://www.theweatherprediction.com)
 
