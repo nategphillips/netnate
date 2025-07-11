@@ -18,6 +18,10 @@ In the future, this will be a refined list of weather resources, each with a con
 
 ### [FEMA National Flood Hazard Layer (NFHL) Viewer](https://hazards-fema.maps.arcgis.com/apps/webappviewer/index.html?id=8b0adb51996444d4879338b5529aa9cd)
 
+### [Lakes Online](https://www.lakesonline.com)
+
+### [Mesoscale and Microscale Meteorology Laboratory (MMM) Image Archive](https://www2.mmm.ucar.edu/imagearchive)
+
 ### [Mike's Weather Page](https://spaghettimodels.com)
 
 ### [NOAA CPC Soil Moisture](https://www.cpc.ncep.noaa.gov/products/Soilmst_Monitoring/US/Soilmst/Soilmst.shtml#)
@@ -27,6 +31,10 @@ In the future, this will be a refined list of weather resources, each with a con
 ### [NOAA Multi-Radar Multi-Sensor (MRMS) Product Viewer](https://mrms.nssl.noaa.gov/qvs/product_viewer)
 
 ### [NOAA National Integrated Drought Information System (NIDIS)](https://www.drought.gov)
+
+### [NOAA National Water Prediction Service (NWPS) Map](https://water.noaa.gov)
+
+### [NOAA NEXRAD Data Archive](https://www.ncdc.noaa.gov/nexradinv)
 
 ### [NOAA NEXRAD Radar Status](https://radar2pub-bldr.ncep.noaa.gov)
 
@@ -64,9 +72,9 @@ In the future, this will be a refined list of weather resources, each with a con
 
 ### [TAMU Forest Service Burn Bans](https://tfsweb.tamu.edu/wildfire-and-other-disasters/burn-bans-and-information)
 
-### [TAMU HDWX Products](https://hdwx.tamu.edu/product-list)
-
 ### [TAMU High-Definition Weather (HDWX)](https://hdwx.tamu.edu)
+
+### [TAMU HDWX Products](https://hdwx.tamu.edu/product-list)
 
 ### [TAMU Texas Weather Connection](https://twc.tamu.edu)
 
@@ -81,6 +89,10 @@ In the future, this will be a refined list of weather resources, each with a con
 ### [Tropical Tidbits](https://www.tropicaltidbits.com)
 
 ### [Twister Data](http://www.twisterdata.com)
+
+### [United States Geological Survey (USGS) National Water Dashboard](https://dashboard.waterdata.usgs.gov)
+
+### [Water Data for Texas Lake Level Map](https://www.waterdatafortexas.org/reservoirs/statewide)
 
 ### [Weather Graphics](https://www.weathergraphics.com/books/index.shtml)
 
