@@ -335,6 +335,22 @@ GCC has a Fortran frontend:
 sudo pacman -S gcc-fortran
 ```
 
+### Rust
+
+Use the [standard installation](https://www.rust-lang.org/tools/install) script:
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+### Go
+
+Golang itself only provides archives, not a self-updating installer, so using `pacman` is advised:
+
+```bash
+sudo pacman -S go
+```
+
 ### $\LaTeX$
 
 #### $\TeX$ Live
