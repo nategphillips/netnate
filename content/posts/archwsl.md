@@ -33,7 +33,7 @@ Now, run
 wsl --install -d archlinux
 ```
 
-to install Arch Linux instead of the default distribution, which is Ubuntu. More information can be found [here](https://learn.microsoft.com/en-us/windows/wsl/install).
+to install Arch Linux instead of the default distribution, which is Ubuntu. More information can be found on [Microsoft's docs](https://learn.microsoft.com/en-us/windows/wsl/install).
 
 ## Setup
 
@@ -215,7 +215,7 @@ Install:
 sudo pacman -S git
 ```
 
-Follow the steps [here](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup). In short, run:
+Follow the steps in the [first time setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup). In short, run:
 
 ```bash
 git config --global user.name "John Doe"
@@ -224,7 +224,7 @@ git config --global core.editor nvim
 git config --global init.defaultBranch main
 ```
 
-If you use GitHub and would like to keep your personal email private (i.e., not attach it to commits), go [here](https://github.com/settings/emails), set your email to private, and GitHub will give you an email specifically for authoring commits, merges, etc.
+If you use GitHub and would like to keep your personal email private (i.e., not attach it to commits), go to [GitHub settings](https://github.com/settings/emails), set your email to private, and GitHub will give you an email specifically for authoring commits, merges, etc.
 
 You can view the global config using:
 
