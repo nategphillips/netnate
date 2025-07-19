@@ -1,6 +1,6 @@
 +++
 title = 'archwsl'
-date = 2025-07-14
+date = 2025-07-19
 draft = false
 math = true
 tags = ['computing']
@@ -483,3 +483,54 @@ Sometimes, you'll get a message like `tlmgr install: package authblk not present
 I use `biblatex` with the `ieee` style for citations in my own work, which requires the [`biblatex-ieee`](https://ctan.org/pkg/biblatex-ieee) package. If you don't have this and try to use `ieee` as the style, even if `biblatex` is present, it will throw some absolutely nonsense errors.
 
 If you use `biber` as the `biblatex` backend, make sure it's installed as well, otherwise the errors thrown there make similar (no) sense. For `biber` to work, it needs access to the `libcrypt.so.1` file, which is contained in the [`libxcrypt-compat`](https://archlinux.org/packages/core/x86_64/libxcrypt-compat/) package from core. For general troubleshooting of missing files, the `pacman -F` command is really useful, as it shows the libraries which contain the file in question.
+
+### Terminal Font
+
+I like using [Nerd Fonts](https://www.nerdfonts.com/) in the terminal since they have nice little icons that prompts and other CLI tools sometimes use. But how does one get both a Nerd Font and emoji working in the terminal at the same time? First, ensure that your desired Nerd Font is installed (Arch provides a [long list](https://archlinux.org/groups/x86_64/nerd-fonts/)) along with the Noto font emojis:
+
+```bash
+sudo pacman -S ttf-firacode-nerd noto-fonts-emoji
+```
+
+Next, we'll need to actually configure the font family that the terminal will use. First, `grep` the actual name of the two font families we've just installed:
+
+```bash
+fc-list : family | grep "Fira"
+```
+
+This should return a bunch of font families, any of which can be used. Edit (or create) the `~/.config/fontconfig/fonts.conf` file to include something like the following minimal example:
+
+```xml
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig SYSTEM "urn:fontconfig:fonts.dtd">
+<fontconfig>
+    <alias>
+        <family>serif</family>
+        <prefer>
+            <family>FiraCode Nerd Font Mono</family>
+            <family>Noto Color Emoji</family>
+        </prefer>
+    </alias>
+</fontconfig>
+```
+
+The Arch wiki has several [font configuration examples](https://wiki.archlinux.org/title/Font_configuration/Examples#Default_fonts) to get ideas for what this could look like in the case of more complex setups. In my case, I'm using alacritty, so the newly created font family needs to be specified in `~/.config/alacritty/alacritty.toml`:
+
+```toml
+[font]
+size = 11.0
+
+[font.normal]
+family = "monospace"
+style = "Regular"
+```
+
+Some configs also specify configurations for bold, italic, and bold italic separately, but I've found this can actually break those font types. To test if everything is working, you can use the following terminal escape codes from this [StackExchange post](https://askubuntu.com/questions/528928/how-to-do-underline-bold-italic-strikethrough-color-background-and-size-i):
+
+```bash
+echo -e "\e[1mbold\e[0m"
+echo -e "\e[3mitalic\e[0m"
+echo -e "\e[3m\e[1mbold italic\e[0m"
+echo -e "\e[4munderline\e[0m"
+echo -e "\e[9mstrikethrough\e[0m"
+```
