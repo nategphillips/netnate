@@ -505,7 +505,7 @@ This should return a bunch of font families, any of which can be used. Edit (or 
 <!DOCTYPE fontconfig SYSTEM "urn:fontconfig:fonts.dtd">
 <fontconfig>
     <alias>
-        <family>serif</family>
+        <family>monospace</family>
         <prefer>
             <family>FiraCode Nerd Font Mono</family>
             <family>Noto Color Emoji</family>
