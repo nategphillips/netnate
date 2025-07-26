@@ -1,6 +1,6 @@
 +++
 title = 'archwsl'
-date = 2025-07-19
+date = 2025-07-25
 draft = false
 math = true
 tags = ['computing']
@@ -233,6 +233,34 @@ git config --list
 ```
 
 This might throw `error: cannot run less: No such file or directory`, which happens simply because `less` is not installed (the Arch WSL distro ships pretty much completely devoid of all common packages). Just install it if needed.
+
+### SSHing into GitHub
+
+Use `ssh-keygen` to generate public and private SSH keys for your GitHub email:
+
+```bash
+ssh-keygen -t ed25519 -C "your_email@users.noreply.github.com"
+```
+
+Select a directory for the key to live in and create a password. Get the public key using `cat ~/.ssh/id_ed25519.pub` and go to [GitHub's SSH settings](https://github.com/settings/keys) to add the public key. Once it's added, you're good to go, but you'll have to re-enter your SSH password every time you push to or clone a repository, which can get annoying. To permanently activate the key locally, get the `keychain` tool:
+
+```bash
+sudo pacman -S keychain
+```
+
+Add the following line pointing to to your local private key to `.bashrc`:
+
+```bash
+eval "$(keychain -q --eval ~/.ssh/id_ed25519)"
+```
+
+This will quietly execute the `keychain` command whenever a new shell is spawned and automatically make the key available for use. To test if everything is working, try:
+
+```bash
+ssh -T git@github.com
+```
+
+You should get a message like `Hi <username>! You've successfully authenticated, but GitHub does not provide shell access.`, which means everything is working. Just make sure to clone repos using SSH instead of HTTPS, and your credentials will automatically be certified.
 
 ## Using WSL with VS Code
 
