@@ -331,6 +331,33 @@ ImportError: libxkbcommon.so.0: cannot open shared object file: No such file or 
 
 which is contained in, you guessed it, the `libxkbcommon` package. After installing this, the application should load the GUI, but the fonts might be broken. To fix this, I referenced [this thread](https://www.reddit.com/r/archlinux/comments/rm3kch/which_fonts_do_you_guys_actually_install/), which recommends installing the `noto-fonts` package. Installing this package fixed all of my font issues, and GUI development in Python is possible through WSL!
 
+#### Profiling
+
+The [snakeviz](https://jiffyclub.github.io/snakeviz/) tool interfaces with the built-in Python [cProfile](https://docs.python.org/3/library/profile.html) tool to show total and cumulative file / function runtimes in a browser window. To generate a profile for viewing, run:
+
+```bash
+python -m cProfile -o main.prof main.py
+```
+
+If you're using uv, the `uvx` command can be used to run tools, in this case:
+
+```bash
+uvx snakeviz main.prof
+```
+
+Another great tool is [pyinstrument](https://github.com/joerick/pyinstrument), which is a statistical profiler that has less overhead than cProfile. You can also run this with `uvx`, but I've had issues with it recognizing the virtual environment for some reason. Instead, I just do:
+
+```bash
+source .venv/bin/activate
+uv pip install pyinstrument
+```
+
+To get an HTML output, run:
+
+```bash
+pyinstrument -r html main.py
+```
+
 ### Julia
 
 Julia can be installed via the `juliaup` binary, which you can curl:
