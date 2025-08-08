@@ -1,6 +1,6 @@
 +++
 title = 'archwsl'
-date = 2025-07-25
+date = 2025-08-08
 draft = false
 math = true
 tags = ['computing']
@@ -272,10 +272,16 @@ Everything included in and below this section pertains to my workflow specifical
 
 ### TL;DR and Man Pages
 
-Documentation for command-line utilities is essential. The `tldr` package compiles community-made and easy to understand usage examples for a bunch of commands. For more advanced usage, `man` pages are indispensable:
+Documentation for command-line utilities is essential. The [tealdeer](https://github.com/tealdeer-rs/tealdeer) package compiles community-made and easy to understand usage examples for a bunch of commands. For more advanced usage, `man` pages are indispensable:
 
 ```bash
-sudo pacman -S tldr man
+sudo pacman -S tealdeer man
+```
+
+The [wikiman](https://github.com/filiparag/wikiman) package provides the ability to browse the Arch and Gentoo wikis offline. To install it and the offline Arch wiki:
+
+```bash
+sudo pacman -S wikiman arch-wiki-docs
 ```
 
 ### Hugo
