@@ -1,6 +1,6 @@
 +++
 title = 'archwsl'
-date = 2025-08-08
+date = 2025-08-16
 draft = false
 math = true
 tags = ['computing']
@@ -160,41 +160,6 @@ I happen to like the [starship.rs](https://starship.rs/) shell prompt, so I'll i
 sudo pacman -S starship
 ```
 
-As an example, my `.bashrc` file looks like the following:
-
-```bash
-#
-# ~/.bashrc
-#
-
-# If not running interactively, don't do anything
-[[ $- != *i* ]] && return
-
-# Useful coloring
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
-
-# Shortcuts
-alias la='ls -la'
-alias ll='ls -l'
-alias cls='clear'
-alias ff='fastfetch'
-alias py='python'
-
-# Safety nets
-alias rm='rm -i'
-alias mv='mv -i'
-alias cp='cp -i'
-alias ln='ln -i'
-alias chown='chown --preserve-root'
-alias chmod='chmod --preserve-root'
-alias chgrp='chgrp --preserve-root'
-
-PS1='[\u@\h \W]\$ '
-
-eval "$(starship init bash)"
-```
-
 Apply the changes:
 
 ```bash
@@ -262,10 +227,6 @@ ssh -T git@github.com
 
 You should get a message like `Hi <username>! You've successfully authenticated, but GitHub does not provide shell access.`, which means everything is working. Just make sure to clone repos using SSH instead of HTTPS, and your credentials will automatically be certified.
 
-## Using WSL with VS Code
-
-If you'd like to use WSL with VS Code, first make sure that the WSL extension is installed. On the WSL side, you must have `which` installed, and either `wget` or `curl` installed so that the VS Code server can run its bash setup script without encountering any errors. (These packages are ubiquitous and should be installed regardless.) Once you've installed those, run `code .` on any folder within WSL. The first time you do this, the VS Code server will install itself on the WSL distro before launching an instance of VS Code connected to the remote. If you have trouble, consult the [docs](https://code.visualstudio.com/docs/remote/wsl).
-
 ## My workflow
 
 Everything included in and below this section pertains to my workflow specifically, which I'm documenting here mostly for my own sake.
@@ -297,22 +258,13 @@ sudo pacman -S hugo make
 Python is one of the few packages that comes pre-installed, but this is a system-wide install that should never be used to actually develop Python programs (it's used as a dependency for lots of other packages). I quite like the `uv` tool, which is a package and project manager for Python written in Rust (so it's blazingly fast or whatever). Install it with:
 
 ```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
+sudo pacman -S uv
 ```
 
 {{< notice info >}}
-In general, `curl`ing scripts and running them with `sh` is discouraged as it presents a security risk if you don't know what's actually being executed in the script. To inspect a bash script before running it, you can pipe it into `less`:
 
-```bash
-curl -LsSf https://astral.sh/uv/install.sh | less
-```
+Tools like `uv` and `rustup` have self-updating commands like `uv self update` that will not work if installed via pacman. In my view, this is a good thing, since all updates should be handled by the system-wide package manager.
 
-{{< /notice >}}
-
-Once you've installed, restart the shell and ensure that `. "$HOME/.local/bin/env"` has been added to `.bashrc`.
-
-{{< notice note >}}
-`uv` and other tools (like `juliaup`, which will be covered below), can sometimes be installed with `pacman`, or, in other cases, reside in the AUR. I don't particularly like installing these self-updating tools this via `pacman` because their versions become tied to the Arch repos instead of the upstreams actually maintained by the authors of the tools themselves. Usually, there won't be a discrepancy due to how frequently the Arch repos are updated, but self-updating commands like `uv self update` will not work if installed in this way. Just a heads up.
 {{< /notice >}}
 
 #### PySide6
@@ -366,19 +318,64 @@ pyinstrument -r html main.py
 
 ### Julia
 
-Julia can be installed via the `juliaup` binary, which you can curl:
+Unfortunately, the Julia version manager `juliaup` is not available through pacman. You can either install it from the AUR or use the install script. The docs say that there are ["drawbacks"](https://github.com/JuliaLang/juliaup?tab=readme-ov-file#software-repositories) to installing from repositories, but I'm not sure what they mean by this. In either case, you'll need to inspect the installation script before actually installing it. For the AUR, this amounts to reading the PKGBUILD script (`paru` opens this script for inspection by default).
 
 ```bash
-curl -fsSL https://install.julialang.org | sh
+paru -S juliaup
 ```
 
-Reload the PATH environment variable using
+{{< notice warning >}}
+
+When you're installing something from the AUR, *always* read the PKGBUILD script. They're typically quite short and tend to pull sources from GitHub, so they're easy to vet. If you're installing something by `curl`ing a shell script, *never* pipe the script directly into bash. If you must install software this way, redirect it to a file, read the file, and execute it once you're sure it's okay:
 
 ```bash
-. ~/.bashrc
+curl -fsSL https://install.julialang.org > install.sh
+nvim install.sh
+bash install.sh
 ```
 
-There might be cipher and TLS warnings encountered with newer versions of curl, but they shouldn't prevent installation. I submitted an [issue](https://github.com/JuliaLang/juliaup/issues/1219) and [pull request](https://github.com/JuliaLang/juliaup/pull/1220) for these warnings on the `juliaup` GitHub. Hopefully they get fixed soon!
+Typically, these custom bash scripts are much longer and more difficult to understand than their AUR PKGBUILD counterparts since they have to consider a wider range of systems. Even if the script is "easy to read," it might just download a binary from some unknown source and execute it, preventing you from auditing the actual source itself. I really don't recommend you install any piece of software this way. Auditing the script by simply `curl`ing the output to bash, as many people suggest, is [not advised](https://archive.is/xLSDn) because the payload might be changed if the pipe is detected server-side.
+
+{{< /notice >}}
+
+#### Neovim LSP
+
+Attempting to install the julials language server through [Mason](https://github.com/mason-org/mason.nvim) does not work at the time of writing (25/08/15). There is an [open issue](https://github.com/mason-org/mason-lspconfig.nvim/issues/582) referencing this problem, but until it gets resolved, there is a manual solution. User `danielwe` on the Julia discourse board posted a [solution](https://discourse.julialang.org/t/neovim-languageserver-jl-crashing-again/130273/3) which I'll reiterate here. Create a shared Julia environment called `@nvim-lspconfig` and manually install the `LanguageServer.jl` package inside it:
+
+```julia
+julia --project=@nvim-lspconfig -e 'using Pkg; Pkg.add("LanguageServer")'
+```
+
+Add `vim.lsp.enable("julials")` inside your `nvim-lspconfig.lua` file. Neovim's LSP will automatically find the language server at the installed location.
+
+#### Julia workflow
+
+Add Revise.jl to the global Julia environment:
+
+```julia
+(@v1.11) pkg> add Revise
+```
+
+Enable Revise.jl if Julia is started through the REPL:
+
+```julia
+if isinteractive()
+    try
+        using Revise
+    catch e
+        @warn "Error initializing Revise" exception = (e, catch_backtrace())
+    end
+end
+```
+
+While working on a package, you can minimize the latency caused by the JIT compiler in a few ways. Create a script file separate from your package that you can iterate on. Activate that directory through the REPL and add your local package:
+
+```julia
+julia> activate .
+(@v1.11) pkg> dev ~/path/to/package/
+```
+
+Now, open a REPL for the script file with `julia --project` and keep it open. Once the packages in use have been precompiled, the overhead reduces significantly and everything executes quickly. For more details, see this excellent [video](https://www.youtube.com/watch?v=_3vJSBk0Bls) by Jacobus.
 
 ### C and C++
 
@@ -398,15 +395,15 @@ sudo pacman -S gcc-fortran
 
 ### Rust
 
-Use the [standard installation](https://www.rust-lang.org/tools/install) script:
+Install via pacman:
 
 ```bash
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+sudo pacman -S rustup
 ```
 
 ### Go
 
-Golang itself only provides archives, not a self-updating installer, so using `pacman` is advised:
+Golang itself only provides archives, not a self-updating installer:
 
 ```bash
 sudo pacman -S go
