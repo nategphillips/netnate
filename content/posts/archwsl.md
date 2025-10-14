@@ -22,19 +22,19 @@ See Microsoft's [docs](https://support.microsoft.com/en-us/windows/enable-virtua
 In Windows 10 version 2004 and higher (Build 19041 and higher) or Windows 11, the Windows Subsystem for Linux Windows feature does not need to be enabled manually and WSL commands should work out of the box.
 First, ensure WSL is up-to-date:
 
-```powershell
+```ps1
 wsl --update
 ```
 
 You can then view the list of available distributions by typing:
 
-```powershell
+```ps1
 wsl -l -o
 ```
 
 Now, run
 
-```powershell
+```ps1
 wsl --install -d archlinux
 ```
 
@@ -560,7 +560,7 @@ tlmgr install latexmk
 
 Before trying to compile anything using LaTeX Workshop, close all instances of WSL and type:
 
-```powershell
+```ps1
 wsl --shutdown
 ```
 
