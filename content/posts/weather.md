@@ -6,7 +6,9 @@ tags = ['weather']
 summary = 'Useful weather resources.'
 +++
 
-In the future, this will be a refined list of weather resources, each with a concise explanation. Right now, it's a dumping ground of links. For radar, see the [dedicated post](/posts/radar).
+In the future, this will be a refined list of weather resources, each with a concise explanation.
+Right now, it's a dumping ground of links.
+For radar, see the [dedicated post](/posts/radar).
 
 ## Cool Stuff
 

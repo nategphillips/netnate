@@ -6,7 +6,11 @@ tags = ['weather']
 summary = 'An overview of various weather radar applications.'
 +++
 
-Here, I present a general overview of some weather radar applications that I think are interesting. Some of the more feature-rich options, like AWIPS or the Gibson Ridge suite, are aimed at professionals and thus are not often mentioned when the question "which radar program should I use?" comes up. The current analysis is limited, but I plan on adding more in-depth feature explanations to each piece of software in the future. Platform support and pricing models are listed up-front, since they're the most important metric when it comes to actually deciding to use a piece of software. Other data will be added piecemeal as I continue to refine this list.
+Here, I present a general overview of some weather radar applications that I think are interesting.
+Some of the more feature-rich options, like AWIPS or the Gibson Ridge suite, are aimed at professionals and thus are not often mentioned when the question "which radar program should I use?" comes up.
+The current analysis is limited, but I plan on adding more in-depth feature explanations to each piece of software in the future.
+Platform support and pricing models are listed up-front, since they're the most important metric when it comes to actually deciding to use a piece of software.
+Other data will be added piecemeal as I continue to refine this list.
 
 ## Standalone Applications
 
@@ -110,4 +114,3 @@ Here, I present a general overview of some weather radar applications that I thi
     - Pro: $3.99/wk, $15.99/mo, or $159.99/yr
 - Levels: 2 and 3
 - Advisories: All
-
