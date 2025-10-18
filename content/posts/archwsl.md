@@ -86,7 +86,7 @@ mkdir /etc/sudoers.d
 touch /etc/sudoers.d/wheel
 ```
 
-Then, setup the wheel:
+Then, set up the wheel:
 
 ```bash
 echo "%wheel ALL=(ALL) ALL" > /etc/sudoers.d/wheel
@@ -416,11 +416,11 @@ end
 
 Revise allows you to change your package code without restarting the Julia session.
 While working on a package, you can minimize the latency caused by the JIT compiler by creating a script file separate from the package itself.
-Create a new script directory, open a Julia REPL, activate it, and install the local package that you're working on:
+Create a new script directory, open a Julia REPL, activate the script directory, and install the local package that you're working on:
 
 ```julia
 (@v1.12) pkg> activate .
-(@v1.12) pkg> dev ~/path/to/package/
+(script) pkg> dev ~/path/to/package/
 ```
 
 Activating an environment means that it is modified when executing package commands in the REPL (instead of the global environment).
