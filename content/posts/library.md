@@ -80,6 +80,7 @@ summary = 'The books I own.'
 | Anderson | *Introduction to Flight* | 9781307493078 |
 | Anderson | *Modern Compressible Flow: With Historical Perspective* | 9780072424430 |
 | Askeland | *The Science and Engineering of Materials* | 9780534029579 |
+| Batchelor | *An Introduction to Fluid Dynamics* | 9780521041188 |
 | Bate, Mueller, White & Saylor | *Fundamentals of Astrodynamics* | 9780486497044 |
 | Becker, Carey & Oden | *Finite Elements: An Introduction - Volume I* | 9780133170573 |
 | Bedford & Liechti | *Mechanics of Materials* | 9783030220815 |
