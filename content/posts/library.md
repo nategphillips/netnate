@@ -78,6 +78,7 @@ summary = 'The books I own.'
 | Anderson | *Fundamentals of Aerodynamics* | 9781259129919 |
 | Anderson | *Hypersonic and High-Temperature Gas Dynamics* | 9781624105142 |
 | Anderson | *Introduction to Flight* | 9781307493078 |
+| Anderson | *Introduction to Flight* | 9780078027673 |
 | Anderson | *Modern Compressible Flow: With Historical Perspective* | 9780072424430 |
 | Askeland | *The Science and Engineering of Materials* | 9780534029579 |
 | Batchelor | *An Introduction to Fluid Dynamics* | 9780521041188 |
@@ -109,10 +110,12 @@ summary = 'The books I own.'
 | Munson, Young & Okiishi | *Fundamentals of Fluid Mechanics* | 9780471855262 |
 | Prouty | *Helicopter Performace, Stability, and Control* | 9781575242095 |
 | Rao | *Dynamics of Particles and Rigid Bodies: A Systematic Approach* | 9780521858113 |
+| Raymer | *Aircraft Design: A Conceptual Approach* | 9781624107153 |
 | Reddy | *An Introduction to the Finite Element Method* | 9780070513556 |
 | Rich & Janos | *Skunk Works: A Personal Memoir of My Years at Lockheed* | 9780751515039 |
 | Schaub & Junkins | *Analytical Mechanics of Space Systems* | 9781624105210 |
 | Schlichting | *Boundary Layer Theory* | 9780070553347 |
+| Schmidt | *Modern Flight Dynamics* | 9780073398112 |
 | Shigley & Mischke | *Mechanical Engineering Design* | 9780070568990 |
 | Silver | *The ARRL Antenna Book for Radio Communications* | 9781625951755 |
 | Silver | *The ARRL Handbook for Radio Communications* | 9781625951571 |
@@ -120,6 +123,7 @@ summary = 'The books I own.'
 | Spurk | *Fluid Mechanics: Problems and Solutions* | 9783540616528 |
 | Steidel | *An Introduction to Mechanical Vibrations* | 9780471845454 |
 | Sutton & Biblarz | *Rocket Propulsion Elements* | 9781118753651 |
+| Thompson | *Compressible Fluid Dynamics* | 9780706440553 |
 | Vance | *Rotordynamics of Turbomachinery* | 9780471802587 |
 | Wark | *Thermodynamics* | 9780070682849 |
 | Warring | *Understanding Electronics* | 9780830602537 |
