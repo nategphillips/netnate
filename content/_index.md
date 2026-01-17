@@ -4,5 +4,5 @@ draft = false
 math = true
 +++
 
-Hi, I'm Nathan---a Ph.D. student in aerospace engineering at Texas A&M University.
-This is where I plan to post about various things, mostly $\LaTeX$ and Linux for now.
+Hello and welcome.
+I hope you enjoy reading about $\LaTeX$ and/or Linux, because that's pretty much it around here.

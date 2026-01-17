@@ -1,6 +1,5 @@
 /*
-color theme: https://github.com/catppuccin/catppuccin
-stole some css from: https://github.com/nathan-barry/nathan.rs/blob/main/static/css/styles.css
+Color theme is [Catppuccin mocha](https://catppuccin.com/palette/#flavor-mocha).
 */
 
 /* color palette */
@@ -44,7 +43,7 @@ body {
 /* paragraphs */
 
 p {
-    text-align: justify;
+    text-align: left;
     hyphens: auto;
 }
 
