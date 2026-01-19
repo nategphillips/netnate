@@ -7,8 +7,7 @@ tags = ['computing']
 summary = 'Installing Arch Linux on WSL.'
 +++
 
-This webpage was written using Arch on WSL set up using the steps outlined below!
-There is [official documentation](https://wiki.archlinux.org/title/Install_Arch_Linux_on_WSL) for installing Arch Linux on WSL, but I think some items could be improved.
+As of writing this article, there is [official documentation](https://wiki.archlinux.org/title/Install_Arch_Linux_on_WSL) for installing Arch Linux on WSL, but I think some items could be improved.
 Before the [official](https://gitlab.archlinux.org/archlinux/archlinux-wsl) Arch Linux WSL project was released in April 2025, [yuk7](https://github.com/yuk7) maintained a fantastic community version called [ArchWSL](https://github.com/yuk7/ArchWSL).
 The [docs](https://wsldl-pg.github.io/ArchW-docs/How-to-Setup/) for that project are helpful, but the order of things has changed a bit with the official packaged release, which is why I'm making this outline.
 
@@ -35,11 +34,11 @@ wsl -l -o
 Now, run
 
 ```ps1
-wsl --install -d archlinux
+wsl --install archlinux
 ```
 
 to install Arch Linux instead of the default distribution, which is Ubuntu.
-More information can be found on [Microsoft's docs](https://learn.microsoft.com/en-us/windows/wsl/install).
+More information can be found in [Microsoft's docs](https://learn.microsoft.com/en-us/windows/wsl/install).
 
 ## Setup
 
@@ -207,7 +206,13 @@ You can view the global config using:
 git config --list
 ```
 
-This might throw `error: cannot run less: No such file or directory`, which happens simply because `less` is not installed (the Arch WSL distro ships pretty much completely devoid of all common packages).
+This might throw
+
+```bash
+error: cannot run less: No such file or directory,
+```
+
+which happens simply because `less` is not installed (the Arch WSL distro ships pretty much completely devoid of all common packages).
 Just install it if needed.
 
 ### SSHing into GitHub
@@ -240,7 +245,12 @@ To test if everything is working, try:
 ssh -T git@github.com
 ```
 
-You should get a message like `Hi <username>! You've successfully authenticated, but GitHub does not provide shell access.`, which means everything is working.
+You should get a message like
+```bash
+Hi <username>! You've successfully authenticated, but GitHub does not provide shell access,
+```
+
+which means everything is working.
 Just make sure to clone repos using SSH instead of HTTPS, and your credentials will automatically be certified.
 
 ## My workflow
@@ -617,7 +627,13 @@ To install packages, just use `tlmgr` like normal:
 tlmgr install derivative
 ```
 
-Sometimes, you'll get a message like `tlmgr install: package authblk not present in repository.` when attempting to install a package.
+Sometimes, you'll get a message like
+
+```bash
+tlmgr install: package authblk not present in repository
+```
+
+when attempting to install a package.
 The most common cause of this is that the dependency is part of a larger package inside of $\TeX$ Live.
 To see which package you need to install, go to [CTAN](https://www.ctan.org) and type in the name of the package you want---it will give you the name of the larger container in which the package is bundled for $\TeX$ Live.
 

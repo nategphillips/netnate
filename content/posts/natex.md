@@ -1,11 +1,10 @@
 +++
 title = 'natex'
 date = 2024-02-28
-draft = false
+draft = true
+math = true
 tags = ['computing']
 summary = 'My custom $\LaTeX$ package.'
-[params]
-    math = true
 +++
 
 I love wasting time trying to perfect my notation when I'm writing things in $\LaTeX$.

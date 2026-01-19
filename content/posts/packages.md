@@ -1,11 +1,10 @@
 +++
 title = 'packages'
 date = 2024-02-26
-draft = false
+draft = true
+math = true
 tags = ['computing']
 summary = 'Some neat packages.'
-[params]
-    math = true
 +++
 
 ## Essentials

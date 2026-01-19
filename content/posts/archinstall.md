@@ -1,21 +1,19 @@
 +++
 title = 'archinstall'
 date = 2024-05-31
-draft = false
+draft = true 
 tags = ['computing']
 summary = 'Like archinstall, but not.'
 +++
 
-This guide is meant to serve as a mostly linear walkthrough for installing Arch linux manually.
-I go through all the steps in the [official Arch Linux installation guide](https://wiki.archlinux.org/title/Installation_guide) and add some more in-depth explanations to sections that are oftentimes troublesome.
+{{< notice note >}}
+I wrote this guide to supplement the [official installation guide](https://wiki.archlinux.org/title/Installation_guide) while installing Arch.
+You should probably just read the wiki.
+{{< /notice >}}
+
 I also added some steps in the pre-installation section that are aimed at Windows users who might be unfamiliar with the processes of torrenting, verifying digital signatures, and preparing ISO files.
 For those who would like to test Arch out on a VM first, I've included a general setup guide for VirtualBox.
-At the end, I've outlined a few post-installation steps for getting the system into a useable state with a working compositor, window manager, and a few other essentials.
-
-{{< notice info >}}
-Due to the inherently transitive nature of Arch Linux, it is entirely likely that some portions of this writeup will become outdated.
-You should always consult the official Arch wiki for the most up-to-date information.
-{{< /notice >}}
+At the end, I've outlined a few post-installation steps for getting the system into a usable state with a working compositor, window manager, and a few other essentials.
 
 Although this guide goes over all the installation steps in detail, I'd actually recommend using the [archinstall](https://wiki.archlinux.org/title/Archinstall) installation script in most cases.
 If you decide to use archinstall, please read the wiki first, as there are a few gotchas that you must keep in mind.
