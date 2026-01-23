@@ -395,10 +395,17 @@ Auditing the script by simply `curl`ing the output to bash, as many people sugge
 Attempting to install the julials language server through [Mason](https://github.com/mason-org/mason.nvim) does not work at the time of writing (25/08/15).
 There is an [open issue](https://github.com/mason-org/mason-lspconfig.nvim/issues/582) referencing this problem, but until it gets resolved, there is a manual solution.
 User `danielwe` on the Julia discourse board posted a [solution](https://discourse.julialang.org/t/neovim-languageserver-jl-crashing-again/130273/3) which I'll reiterate here.
-Create a shared Julia environment called `@nvim-lspconfig` and manually install the `LanguageServer.jl` package inside it:
+Create a shared Julia environment called `@nvim-lspconfig` and manually install the `LanguageServer.jl` package inside it.
+
+{{< notice note >}}
+
+Some time in the past few months (since the release of Julia 1.12?) it seems like `StaticLint.jl` and `SymbolServer.jl` need to be explicitly installed alongside `LanguageServer.jl` despite both being dependencies of the latter.
+
+{{< /notice >}}
+
 
 ```julia
-julia --project=@nvim-lspconfig -e 'using Pkg; Pkg.add("LanguageServer")'
+julia --project=@nvim-lspconfig -e 'using Pkg; Pkg.add("LanguageServer"); Pkg.add("StaticLint"); Pkg.add("SymbolServer")'
 ```
 
 Add `vim.lsp.enable("julials")` inside your `nvim-lspconfig.lua` file.
