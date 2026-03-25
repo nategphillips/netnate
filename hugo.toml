@@ -1,7 +1,7 @@
 baseURL = 'https://netnate.com'
 languageCode = 'en-us'
 title = 'netnate'
-theme = 'netnate_theme'
+theme = ['netnate_theme', 'hugo-simplecite']
 
 [[menus.main]]
 name = 'about'
