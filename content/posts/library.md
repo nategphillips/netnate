@@ -62,6 +62,7 @@ summary = 'The books I own.'
 | Klabnik & Nichols | *The Rust Programming Language* | 9781718503106 |
 | Matthes | *Python Crash Course: A Hands-On, Project-Based Introduction to Programming* | 9781593279288 |
 | Phillips | *Practical Julia: A Hands-on Introduction for Scientific Minds* | 9781718502765 |
+| Press, Teukolsky, Vetterling & Flannery | *Numerical Recipes: The Art of Scientific Computing* | 9780521880688 |
 | Ramalho | *Fluent Python: Clear, Concise, and Effective Programming* | 9781492056355 |
 | Sedgewick | *Algorithms in C: Part 5 - Graph Algorithms* | 9780201316636 |
 | Sedgewick | *Algorithms in C: Parts 1-4 - Fundamentals, Data Structures, Sorting, Searching* | 9780201314526 |
@@ -93,7 +94,9 @@ summary = 'The books I own.'
 | Cogdell | *Foundations of Electrical Engineering* | 9780133295252 |
 | Douglas | *The Secret Horsepower Race: Western Front Fighter Engine Development* | 9781911658504 |
 | Gere & Timoshenko | *Mechanics of Materials* | 9780534030995 |
+| Hill & Peterson | *Mechanics and Thermodynamics of Propulsion* | 9780201146592 |
 | Horn | *Basic Electronics Theory: With Projects and Experiments* | 9780830607754 |
+| Horowitz & Hill | *The Art of Electronics* | 9780521809269 |
 | Hurt | *Aerodynamics for Naval Aviators* | 9781492948209 |
 | Incropera & DeWitt | *Fundamentals of Heat and Mass Transfer* | 9780471612469 |
 | Inman | *Engineering Vibration* | 9780135185315 |
@@ -108,6 +111,7 @@ summary = 'The books I own.'
 | Morley | *The Linear IC Handbook* | 9780830604722 |
 | Morrison | *Diesel Engineering Handbook* | Pre-ISBN |
 | Munson, Young & Okiishi | *Fundamentals of Fluid Mechanics* | 9780471855262 |
+| Park | *Nonequilibrium Hypersonic Aerothermodynamics* | 9780471510932 |
 | Prouty | *Helicopter Performace, Stability, and Control* | 9781575242095 |
 | Rao | *Dynamics of Particles and Rigid Bodies: A Systematic Approach* | 9780521858113 |
 | Raymer | *Aircraft Design: A Conceptual Approach* | 9781624107153 |
@@ -127,8 +131,8 @@ summary = 'The books I own.'
 | Vance | *Rotordynamics of Turbomachinery* | 9780471802587 |
 | Wark | *Thermodynamics* | 9780070682849 |
 | Warring | *Understanding Electronics* | 9780830602537 |
-| White | *Viscous Fluid Flow* | 9780070697102 |
 | White | *Viscous Fluid Flow* | 9780072402315 |
+| White | *Viscous Fluid Flow* | 9780070697102 |
 | Woods | *NASA Saturn V 1967-1973 (Apollo 4 to Apollo 17 & Skylab): Owners' Workshop Manual* | 9780857338280 |
 | Wylen & Sonntag | *Fundamentals of Classical Thermodynamics* | 9780471861737 |
 
@@ -175,7 +179,9 @@ summary = 'The books I own.'
 
 | Author | Title | ISBN |
 | ------ | ----- | ---- |
+| Brown | *The New Penguin Russian Course: A Complete Course for Beginners* | 9780140120417 |
 | Comeau & LaFleur | *Workbook for Wheelock's Latin* | 9780060956424 |
+| Goldman | *English Grammar for Students of Latin* | 9780934034340 |
 | LaFleur | *Scribblers, Sculptors, and Scribes: A Companion to Wheelock's Latin and Other Introductory Textbooks* | 9780061259180 |
 | Moreland & Fleischer | *Latin: An Intensive Course* | 9780520031838 |
 | Neumann | *Lingua Latina: A Companion to Familia Romana* | 9781585108091 |
@@ -195,6 +201,8 @@ summary = 'The books I own.'
 | Agnew & Knapp | *Linear Algebra with Applications* | 9780534013646 |
 | Axler | *Linear Algebra Done Right* | 9783319110790 |
 | Boyce & DiPrima | *Elementary Differential Equations and Boundary Value Problems* | 9780471093343 |
+| David Acheson et al. | *The Princeton Companion to Applied Mathematics* | 9780691150390 |
+| Graham Allan et al. | *The Princeton Companion to Mathematics* | 9780691118802 |
 | Olver | *Introduction to Partial Differential Equations* | 9783319020983 |
 | Orleans & Hart | *Intermediate Algebra* | Pre-ISBN |
 | Schey | *Div, Grad, Curl, and All That: An Informal Text on Vector Calculus* | 9780393925166 |
@@ -242,6 +250,7 @@ summary = 'The books I own.'
 | Feynman, Leighton & Sands | *The Feynman Lectures on Physics: Volume II - Mainly Electromagnetism and Matter* | 9780465024162 |
 | Feynman, Leighton & Sands | *The Feynman Lectures on Physics: Volume III - Quantum Mechanics* | 9780465024179 |
 | Fleisch | *A Student's Guide to Maxwell's Equations* | 9780521877619 |
+| Fleisch | *A Student's Guide to Vectors and Tensors* | 9780521171908 |
 | Fleisch | *A Student's Guide to the Schrödinger Equation* | 9781108834735 |
 | Ford | *Solutions Guide to Accompany University Physics* | 9780201072259 |
 | Fowles | *Introduction to Modern Optics* | 9780486659572 |
@@ -254,19 +263,26 @@ summary = 'The books I own.'
 | Halliday & Resnick | *Physics: Part 2* | 9780471345299 |
 | Halliday, Resnick & Derringh | *Selected Solutions for Physics* | 9780471097129 |
 | Hallmark | *Lasers, the Light Fantastic* | 9780830698578 |
+| Hassani | *Mathematical Physics: A Modern Introduction to Its Foundations* | 9783319011943 |
 | Hecht | *Optics* | 9780805385663 |
 | Hecht | *The Laser Guidebook* | 9780830642748 |
 | Hudson & Nelson | *University Physics* | 9780155929609 |
 | Jackson | *Classical Electrodynamics* | 9780471431329 |
+| Jeevanjee | *An Introduction to Tensors and Group Theory for Physicists* | 9783319147932 |
+| Joachain, Kylstra & Potvliege | *Atoms in Intense Laser Fields* | 9780521793018 |
 | Krane | *Introductory Nuclear Physics* | 9780471805533 |
 | Landau & Lifshitz | *Course of Theoretical Physics: Volume 1 - Mechanics* | 9780750628969 |
 | Landau & Lifshitz | *Course of Theoretical Physics: Volume 6 - Fluid Mechanics* | 9787506242608 |
+| Neuenschwander | *Tensor Calculus for Physics* | 9781421415659 |
 | Nielsen & Chuang | *Quantum Computing and Quantum Information* | 9781107002173 |
 | Nordling & Österman | *Physics Handbook for Science and Engineering* | 9789144044538 |
 | Pedrotti, Pedrotti & Pedrotti | *Introduction to Optics* | 9780131499331 |
 | Penrose | *The Road to Reality: A Complete Guide to the Laws of the Universe* | 9780679454434 |
 | Reed | *The Physics of the Manhattan Project* | 9783030613723 |
+| Robinson | *Symmetry and the Standard Model: Mathematics and Particle Physics* | 9781441982667 |
+| Schroeder | *An Introduction to Thermal Physics* | 9780192895547 |
 | Schwartz | *Quantum Field Theory and the Standard Model* | 9781107034730 |
+| Schwichtenberg | *Physics from Symmetry* | 9783319666303 |
 | Sears, Zemansky & Young | *University Physics: Part I* | 9780201071962 |
 | Shankar | *Principles of Quantum Mechanics* | 9780306447907 |
 | Siegman | *Lasers* | 9780935702118 |
