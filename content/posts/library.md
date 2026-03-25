@@ -1,6 +1,6 @@
 +++
 title = 'library'
-date = 2025-09-21
+date = 2026-03-24
 draft = false
 tags = ['books']
 summary = 'The books I own.'
@@ -286,10 +286,10 @@ summary = 'The books I own.'
 | Sears, Zemansky & Young | *University Physics: Part I* | 9780201071962 |
 | Shankar | *Principles of Quantum Mechanics* | 9780306447907 |
 | Siegman | *Lasers* | 9780935702118 |
-| Susskind & Cabannes | *General Relativity: The Theoretical Minimum* | 9780141999869 |
-| Susskind & Friedman | *Quantum Mechanics: The Theoretical Minimum* | 9780141977812 |
-| Susskind & Friedman | *Special Relativity and Classical Field Theory: The Theoretical Minimum* | 9780141985015 |
-| Susskind & Hrabovsky | *Classical Mechanics: The Theoretical Minimum* | 9780141976228 |
+| Susskind & Cabannes | *The Theoretical Minimum: General Relativity* | 9780141999869 |
+| Susskind & Friedman | *The Theoretical Minimum: Quantum Mechanics* | 9780141977812 |
+| Susskind & Friedman | *The Theoretical Minimum: Special Relativity and Classical Field Theory* | 9780141985015 |
+| Susskind & Hrabovsky | *The Theoretical Minimum: Classical Mechanics* | 9780141976228 |
 | Taylor | *Classical Mechanics* | 9781891389221 |
 | Zangwill | *Modern Electrodynamics* | 9780521896979 |
 
