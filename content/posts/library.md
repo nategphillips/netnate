@@ -1,6 +1,6 @@
 +++
 title = 'library'
-date = 2026-03-24
+date = 2026-03-28
 draft = false
 tags = ['books']
 summary = 'The books I own.'
@@ -60,6 +60,11 @@ summary = 'The books I own.'
 | King | *C Programming: A Modern Approach* | 9780393979503 |
 | Kiusalaas | *Numerical Methods in Engineering with Python 3* | 9781107033856 |
 | Klabnik & Nichols | *The Rust Programming Language* | 9781718503106 |
+| Knuth | *Computers & Typesetting: Volume A - The TeXbook* | 9780201134476 |
+| Knuth | *Computers & Typesetting: Volume B - TeX: The Program* | 9780201134377 |
+| Knuth | *Computers & Typesetting: Volume C - The METAFONTbook* | 9780201134452 |
+| Knuth | *Computers & Typesetting: Volume D - METAFONT: The Program* | 9780201134384 |
+| Knuth | *Computers & Typesetting: Volume E - Computer Modern Typefaces* | 9780201134469 |
 | Matthes | *Python Crash Course: A Hands-On, Project-Based Introduction to Programming* | 9781593279288 |
 | Phillips | *Practical Julia: A Hands-on Introduction for Scientific Minds* | 9781718502765 |
 | Press, Teukolsky, Vetterling & Flannery | *Numerical Recipes: The Art of Scientific Computing* | 9780521880688 |
@@ -266,6 +271,7 @@ summary = 'The books I own.'
 | Hassani | *Mathematical Physics: A Modern Introduction to Its Foundations* | 9783319011943 |
 | Hecht | *Optics* | 9780805385663 |
 | Hecht | *The Laser Guidebook* | 9780830642748 |
+| Hubeny & Mihalas | *Theory of Stellar Atmospheres: An Introduction to Astrophysical Non-equilibrium Quantitative Spectroscopic Analysis* | 9780691163291 |
 | Hudson & Nelson | *University Physics* | 9780155929609 |
 | Jackson | *Classical Electrodynamics* | 9780471431329 |
 | Jeevanjee | *An Introduction to Tensors and Group Theory for Physicists* | 9783319147932 |
