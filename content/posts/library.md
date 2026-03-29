@@ -117,6 +117,7 @@ summary = 'The books I own.'
 | Morrison | *Diesel Engineering Handbook* | Pre-ISBN |
 | Munson, Young & Okiishi | *Fundamentals of Fluid Mechanics* | 9780471855262 |
 | Park | *Nonequilibrium Hypersonic Aerothermodynamics* | 9780471510932 |
+| Poinsot & Veynante | *Theoretical and Numerical Combustion* | 9782746639904 |
 | Prouty | *Helicopter Performace, Stability, and Control* | 9781575242095 |
 | Rao | *Dynamics of Particles and Rigid Bodies: A Systematic Approach* | 9780521858113 |
 | Raymer | *Aircraft Design: A Conceptual Approach* | 9781624107153 |
