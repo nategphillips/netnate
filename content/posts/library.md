@@ -1,6 +1,6 @@
 +++
 title = 'library'
-date = 2026-03-28
+date = 2026-03-30
 draft = false
 tags = ['books']
 summary = 'The books I own.'
@@ -98,6 +98,7 @@ summary = 'The books I own.'
 | Cochin & Plass | *Analysis and Design of Dynamic Systems* | 9780060413149 |
 | Cogdell | *Foundations of Electrical Engineering* | 9780133295252 |
 | Douglas | *The Secret Horsepower Race: Western Front Fighter Engine Development* | 9781911658504 |
+| Ferziger, Perić & Street | *Computational Methods for Fluid Dynamics* | 9783319996912 |
 | Gere & Timoshenko | *Mechanics of Materials* | 9780534030995 |
 | Hill & Peterson | *Mechanics and Thermodynamics of Propulsion* | 9780201146592 |
 | Horn | *Basic Electronics Theory: With Projects and Experiments* | 9780830607754 |
@@ -291,6 +292,7 @@ summary = 'The books I own.'
 | Schwartz | *Quantum Field Theory and the Standard Model* | 9781107034730 |
 | Schwichtenberg | *Physics from Symmetry* | 9783319666303 |
 | Sears, Zemansky & Young | *University Physics: Part I* | 9780201071962 |
+| Sergio Navas et al. | *Review of Particle Physics* | 10.1103/PhysRevD.110.030001 |
 | Shankar | *Principles of Quantum Mechanics* | 9780306447907 |
 | Siegman | *Lasers* | 9780935702118 |
 | Susskind & Cabannes | *The Theoretical Minimum: General Relativity* | 9780141999869 |
