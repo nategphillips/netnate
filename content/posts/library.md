@@ -208,8 +208,8 @@ summary = 'The books I own.'
 | Agnew & Knapp | *Linear Algebra with Applications* | 9780534013646 |
 | Axler | *Linear Algebra Done Right* | 9783319110790 |
 | Boyce & DiPrima | *Elementary Differential Equations and Boundary Value Problems* | 9780471093343 |
-| David Acheson et al. | *The Princeton Companion to Applied Mathematics* | 9780691150390 |
-| Graham Allan et al. | *The Princeton Companion to Mathematics* | 9780691118802 |
+| Acheson et al. | *The Princeton Companion to Applied Mathematics* | 9780691150390 |
+| Allan et al. | *The Princeton Companion to Mathematics* | 9780691118802 |
 | Olver | *Introduction to Partial Differential Equations* | 9783319020983 |
 | Orleans & Hart | *Intermediate Algebra* | Pre-ISBN |
 | Schey | *Div, Grad, Curl, and All That: An Informal Text on Vector Calculus* | 9780393925166 |
@@ -292,7 +292,7 @@ summary = 'The books I own.'
 | Schwartz | *Quantum Field Theory and the Standard Model* | 9781107034730 |
 | Schwichtenberg | *Physics from Symmetry* | 9783319666303 |
 | Sears, Zemansky & Young | *University Physics: Part I* | 9780201071962 |
-| Sergio Navas et al. | *Review of Particle Physics* | DOI: 10.1103/PhysRevD.110.030001 |
+| Navas et al. | *Review of Particle Physics* | DOI: 10.1103/PhysRevD.110.030001 |
 | Shankar | *Principles of Quantum Mechanics* | 9780306447907 |
 | Siegman | *Lasers* | 9780935702118 |
 | Susskind & Cabannes | *The Theoretical Minimum: General Relativity* | 9780141999869 |
