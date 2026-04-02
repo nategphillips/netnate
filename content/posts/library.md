@@ -13,6 +13,7 @@ summary = 'The books I own.'
 | Atkins & Friedman | *Molecular Quantum Mechanics* | 9780199541423 |
 | Atkins, Jones & Laverman | *Chemical Principles: The Quest for Insight* | 9781464183959 |
 | Bernath | *Spectra of Atoms and Molecules* | 9780199382576 |
+| Brett et al. | *Quantities, Units and Symbols in Physical Chemistry: Abridged Version* | 9781839161506 |
 | Brown & Carrington | *Rotational Spectroscopy of Diatomic Molecules* | 9780521530781 |
 | Hanson, Spearrin & Goldenstein | *Spectroscopy and Optical Diagnostics for Gases* | 9783319232515 |
 | Harris & Bertolucci | *Symmetry and Spectroscopy: An Introduction to Vibrational and Electronic Spectroscopy* | 9780486661445 |
@@ -205,11 +206,11 @@ summary = 'The books I own.'
 
 | Author | Title | ISBN |
 | ------ | ----- | ---- |
+| Acheson et al. | *The Princeton Companion to Applied Mathematics* | 9780691150390 |
 | Agnew & Knapp | *Linear Algebra with Applications* | 9780534013646 |
+| Allan et al. | *The Princeton Companion to Mathematics* | 9780691118802 |
 | Axler | *Linear Algebra Done Right* | 9783319110790 |
 | Boyce & DiPrima | *Elementary Differential Equations and Boundary Value Problems* | 9780471093343 |
-| Acheson et al. | *The Princeton Companion to Applied Mathematics* | 9780691150390 |
-| Allan et al. | *The Princeton Companion to Mathematics* | 9780691118802 |
 | Olver | *Introduction to Partial Differential Equations* | 9783319020983 |
 | Orleans & Hart | *Intermediate Algebra* | Pre-ISBN |
 | Schey | *Div, Grad, Curl, and All That: An Informal Text on Vector Calculus* | 9780393925166 |
@@ -281,6 +282,7 @@ summary = 'The books I own.'
 | Krane | *Introductory Nuclear Physics* | 9780471805533 |
 | Landau & Lifshitz | *Course of Theoretical Physics: Volume 1 - Mechanics* | 9780750628969 |
 | Landau & Lifshitz | *Course of Theoretical Physics: Volume 6 - Fluid Mechanics* | 9787506242608 |
+| Navas et al. | *Review of Particle Physics* | DOI: 10.1103/PhysRevD.110.030001 |
 | Neuenschwander | *Tensor Calculus for Physics* | 9781421415659 |
 | Nielsen & Chuang | *Quantum Computing and Quantum Information* | 9781107002173 |
 | Nordling & Österman | *Physics Handbook for Science and Engineering* | 9789144044538 |
@@ -292,7 +294,6 @@ summary = 'The books I own.'
 | Schwartz | *Quantum Field Theory and the Standard Model* | 9781107034730 |
 | Schwichtenberg | *Physics from Symmetry* | 9783319666303 |
 | Sears, Zemansky & Young | *University Physics: Part I* | 9780201071962 |
-| Navas et al. | *Review of Particle Physics* | DOI: 10.1103/PhysRevD.110.030001 |
 | Shankar | *Principles of Quantum Mechanics* | 9780306447907 |
 | Siegman | *Lasers* | 9780935702118 |
 | Susskind & Cabannes | *The Theoretical Minimum: General Relativity* | 9780141999869 |
