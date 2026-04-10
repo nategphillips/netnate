@@ -66,6 +66,7 @@ summary = 'The books I own.'
 | Knuth | *Computers & Typesetting: Volume C - The METAFONTbook* | 9780201134452 |
 | Knuth | *Computers & Typesetting: Volume D - METAFONT: The Program* | 9780201134384 |
 | Knuth | *Computers & Typesetting: Volume E - Computer Modern Typefaces* | 9780201134469 |
+| Lamport | *LaTeX: A Document Preparation System* | 9780201529838 |
 | Matthes | *Python Crash Course: A Hands-On, Project-Based Introduction to Programming* | 9781593279288 |
 | Phillips | *Practical Julia: A Hands-on Introduction for Scientific Minds* | 9781718502765 |
 | Press, Teukolsky, Vetterling & Flannery | *Numerical Recipes: The Art of Scientific Computing* | 9780521880688 |
