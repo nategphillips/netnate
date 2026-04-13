@@ -1,6 +1,6 @@
 +++
 title = 'library'
-date = 2026-03-30
+date = 2026-04-12
 draft = false
 tags = ['books']
 summary = 'The books I own.'
@@ -24,6 +24,7 @@ summary = 'The books I own.'
 | Judd | *Angular Momentum Theory for Diatomic Molecules* | 9780123919502 |
 | Kovács | *Rotational Structure in the Spectra of Diatomic Molecules* | 9780852741429 |
 | Lefebvre-Brion & Field | *The Spectra and Dynamics of Diatomic Molecules* | 9780124414556 |
+| Lucht | *Fundamentals of Laser Spectroscopy for Atoms and Diatomic Molecules* | 9781108837927 |
 | Mallick | *Fundamentals of Molecular Spectroscopy* | 9789819907908 |
 | McQuarrie & Simon | *Physical Chemistry: A Molecular Approach* | 9780935702996 |
 | Mizushima | *The Theory of Rotating Diatomic Molecules* | 9780471611875 |
