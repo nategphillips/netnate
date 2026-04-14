@@ -1,6 +1,6 @@
 +++
 title = 'library'
-date = 2026-04-12
+date = 2026-04-13
 draft = false
 tags = ['books']
 summary = 'The books I own.'
@@ -284,6 +284,7 @@ summary = 'The books I own.'
 | Krane | *Introductory Nuclear Physics* | 9780471805533 |
 | Landau & Lifshitz | *Course of Theoretical Physics: Volume 1 - Mechanics* | 9780750628969 |
 | Landau & Lifshitz | *Course of Theoretical Physics: Volume 6 - Fluid Mechanics* | 9787506242608 |
+| Morse | *Nuclear Fusion* | 9783319981703 |
 | Navas et al. | *Review of Particle Physics* | DOI: 10.1103/PhysRevD.110.030001 |
 | Neuenschwander | *Tensor Calculus for Physics* | 9781421415659 |
 | Nielsen & Chuang | *Quantum Computing and Quantum Information* | 9781107002173 |
