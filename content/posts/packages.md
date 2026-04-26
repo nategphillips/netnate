@@ -9,9 +9,9 @@ summary = 'A collection of the $\LaTeX$ packages that I use.'
 
 ## Package listing
 
-These days, Lua$\LaTeX$ is the [officially recommended](https://www.texdev.net/2024/11/05/engine-news-from-the-latex-project) compiler over PDF$\LaTeX$, primarily due to the Unicode and tagging support it offers.
+These days, Lua$\TeX$ is the [officially recommended](https://www.texdev.net/2024/11/05/engine-news-from-the-latex-project) engine over pdf$\TeX$, primarily due to the Unicode and tagging support it offers.
 I use Lua$\LaTeX$ whenever possible, so keep that in mind when reading this list.
-For users of PDF$\LaTeX$, take a look at the second section.
+For users of pdf$\LaTeX$, take a look at the second section.
 
 - [`amsthm`](https://ctan.org/pkg/amsthm)
     - Used for defining customizable theorem-like environments
@@ -66,7 +66,7 @@ For users of PDF$\LaTeX$, take a look at the second section.
     - `\multirow`
 - [`natex`](https://github.com/nategphillips/natex)
     - My package for mathematics, physics, and engineering macros
-    - Separate implementations for Lua$\LaTeX$ and PDF$\LaTeX$
+    - Separate implementations for Lua$\LaTeX$ and pdf$\LaTeX$
 - [`pagecolor`](https://ctan.org/pkg/pagecolor)
     - Recolors the page background and text
     - `\color`, `\pagecolor`
@@ -97,11 +97,11 @@ For users of PDF$\LaTeX$, take a look at the second section.
     - Allows for defining and using colors
     - `\color`, `\definecolor`
 
-## Packages for PDF$\LaTeX$ only
+## Packages for pdf$\LaTeX$ only
 
-When using the Lua$\LaTeX$ compiler with `unicode-math` and a supported math font like [New Computer Modern](https://ctan.org/pkg/newcomputermodern), the following packages are not necessary since their features are already implemented.
+When using the Lua$\TeX$ engine with `unicode-math` and a supported math font like [New Computer Modern](https://ctan.org/pkg/newcomputermodern), the following packages are not necessary since their features are already implemented.
 Additionally, the Unicode variants are often much nicer since they can be directly copied into a browser or text editor and are supported by screen readers.
-If you must use PDF$\LaTeX$, these are nice-to-haves.
+If you must use pdf$\LaTeX$, these are nice-to-haves.
 
 - [`amsfonts`](https://ctan.org/pkg/amsfonts)
     - Adds blackboard math and Fraktur fonts
@@ -112,7 +112,7 @@ If you must use PDF$\LaTeX$, these are nice-to-haves.
 - [`bm`](https://ctan.org/pkg/bm)
     - Bold symbols in math mode that are safer than those from `\boldsymbol`
 - [`esint`](https://ctan.org/pkg/esint)
-    - Necessary for surface, volume, and direction contour integrals when using PDF$\LaTeX$
+    - Necessary for surface, volume, and direction contour integrals when using pdf$\LaTeX$
     - `\iiint`, `\oiint`, `\ointclockwise`
 - [`mathrsfs`](https://ctan.org/pkg/mathrsfs)
     - Adds Raph Smith’s Formal Script font to math mode
