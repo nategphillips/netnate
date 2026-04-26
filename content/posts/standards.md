@@ -1,5 +1,5 @@
 +++
-title = 'standards'
+title = 'Standards on notation'
 date = 2026-01-21
 draft = true
 tags = ['science']

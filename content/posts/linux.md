@@ -1,5 +1,5 @@
 +++
-title = 'linux is not an operating system'
+title = 'Linux is not an operating system'
 date = 2026-03-29
 draft = true
 tags = ['linux']

@@ -1,10 +1,10 @@
 +++
-title = 'archwsl'
+title = 'Installing Arch Linux on WSL'
 date = 2025-10-14
 draft = false
 math = true
 tags = ['computing']
-summary = 'Installing Arch Linux on WSL.'
+summary = 'Also includes setup instructions for programs that I use.'
 +++
 
 As of writing this article, there is [official documentation](https://wiki.archlinux.org/title/Install_Arch_Linux_on_WSL) for installing Arch Linux on WSL, but I think some items could be improved.

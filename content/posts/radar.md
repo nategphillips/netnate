@@ -1,5 +1,5 @@
 +++
-title = 'radar'
+title = 'Weather radar'
 date = 2025-08-20
 draft = false
 tags = ['weather']
@@ -12,7 +12,7 @@ The current analysis is limited, but I plan on adding more in-depth feature expl
 Platform support and pricing models are listed up-front, since they're the most important metric when it comes to actually deciding to use a piece of software.
 Other data will be added piecemeal as I continue to refine this list.
 
-## Standalone Applications
+## Standalone applications
 
 ### [AWIPS II CAVE](https://unidata.github.io/awips2/install/install-cave/)
 
@@ -83,7 +83,7 @@ Other data will be added piecemeal as I continue to refine this list.
 - Advisories: Warnings
 - [User Guide](https://supercell-wx.readthedocs.io/en/stable/index.html)
 
-## Online Applications
+## Online applications
 
 ### [QuadWeather](https://radar.quadweather.com/)
 

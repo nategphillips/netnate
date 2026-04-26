@@ -1,87 +1,137 @@
 +++
-title = 'packages'
-date = 2024-02-26
-draft = true
+title = 'Packages for typesetting'
+date = 2026-04-25
+draft = false
 math = true
 tags = ['computing']
-summary = 'Some neat packages.'
+summary = 'A collection of the $\LaTeX$ packages that I use.'
 +++
 
-## Essentials
+## Package listing
 
-Generally useful packages that offer commonly used macros.
+These days, Lua$\LaTeX$ is the [officially recommended](https://www.texdev.net/2024/11/05/engine-news-from-the-latex-project) compiler over PDF$\LaTeX$, primarily due to the Unicode and tagging support it offers.
+I use Lua$\LaTeX$ whenever possible, so keep that in mind when reading this list.
+For users of PDF$\LaTeX$, take a look at the second section.
 
-1. [`fancyhdr`](https://ctan.org/pkg/fancyhdr) - provides tools for constructing headers and footers with all kinds of customizable options
-2. [`geometry`](https://ctan.org/pkg/geometry) - changes page dimensions and removes the unnecessarily large default margins
-3. [`hyperref`](https://ctan.org/pkg/hyperref) - support for external hyperlinks and internal document references
-4. [`mathtools`](https://ctan.org/pkg/mathtools) - an extension that internally loads the [`amsmath`](https://ctan.org/pkg/amsmath) package along with various fixes and improvements
-5. [`parskip`](https://ctan.org/pkg/parskip) - allows for zero `\parindent` and nonzero `\parskip`, which makes for much more readable documents
+- [`amsthm`](https://ctan.org/pkg/amsthm)
+    - Used for defining customizable theorem-like environments
+    - `\newtheorem`
+- [`biber`](https://ctan.org/pkg/biber)
+    - A UTF-8 supporting backend for Bib$\LaTeX$ that reads and processes entries
+- [`biblatex`](https://ctan.org/pkg/biblatex)
+    - Provides Unicode-aware formatting of bibliographies entirely controlled by LaTeX macros
+- [`booktabs`](https://ctan.org/pkg/booktabs)
+    - Publication-quality tables
+    - `\bottomrule`, `\cmidrule`, `\midrule`, `\toprule`
+- [`cancel`](https://ctan.org/pkg/cancel)
+    - Places lines through cancelled terms in math equations
+    - `\cancel`, `\cancelto`
+- [`caption`](https://ctan.org/pkg/caption)
+    - Improves caption alignment and allows for bold labels
+- [`cleveref`](https://ctan.org/pkg/cleveref)
+    - Automatic referencing for equations, figures, tables, and sections
+    - `\cref`, `\crefrange`
+- [`derivative`](https://ctan.org/pkg/derivative)
+    - Simple and nice-looking derivatives and differentials
+    - `\adif`, `\odif`, `\odv`, `\mdv`, `\pdv`
+- [`enumitem`](https://ctan.org/pkg/enumitem)
+    - Provides additional numbering and structuring control over the enumerate, itemize, and description environments
+- [`fancyhdr`](https://ctan.org/pkg/fancyhdr)
+    - Provides tools for constructing headers and footers with all kinds of customizable options
+    - `\fancyfoot`, `\fancyhead`
+- [`float`](https://ctan.org/pkg/float)
+    - Sometimes necessary for the placement of stubborn figures and tables
+- [`fontsetup`](https://ctan.org/pkg/fontsetup)
+    - A wrapper package which loads `fontspec`, `unicode-math`, and a font of your choice
+    - Only supports Lua$\LaTeX$
+- [`geometry`](https://ctan.org/pkg/geometry)
+    - Changes page dimensions and removes the unnecessarily large default margins
+- [`graphicx`](https://ctan.org/pkg/graphicx)
+    - Allows for graphics, images, etc. to be added
+    - `\includegraphics`, `\resizebox`
+- [`hyperref`](https://ctan.org/pkg/hyperref)
+    - Support for external hyperlinks and internal document references
+    - `\href`, `\url`
+- [`mathtools`](https://ctan.org/pkg/mathtools)
+    - An extension to [`amsmath`](https://ctan.org/pkg/amsmath) with various fixes and improvements
+    - `\cases*`, `\DeclarePairedDelimiterX`
+- [`minted`](https://ctan.org/pkg/minted)
+    - Syntax highlighting for all sorts of source code using the [Pygments](https://pygments.org) library
+    - `\mintinline`
+- [`mhchem`](https://ctan.org/pkg/mhchem)
+    - Provides commands for typesetting chemical molecular formulae and equations
+    - `\ce`
+- [`multirow`](https://ctan.org/pkg/multirow)
+    - Creates cells that span more than one row in a table
+    - `\multirow`
+- [`natex`](https://github.com/nategphillips/natex)
+    - My package for mathematics, physics, and engineering macros
+    - Separate implementations for Lua$\LaTeX$ and PDF$\LaTeX$
+- [`pagecolor`](https://ctan.org/pkg/pagecolor)
+    - Recolors the page background and text
+    - `\color`, `\pagecolor`
+- [`pgf`](https://ctan.org/pkg/pgf)
+    - Create PostScript and PDF graphics in $\TeX$, great for Matplotlib plots
+- [`pgfplots`](https://ctan.org/pkg/pgfplots)
+    - Draws high-quality function plots using the TikZ interface
+    - Automatically loads `tikz`
+- [`physics2`](https://ctan.org/pkg/physics2)
+    - Provides a submodule for automatic braces
+    - `\ab`
+- [`siunitx`](https://ctan.org/pkg/siunitx)
+    - A comprehensive SI unit package that includes macros for scientific notation
+    - `\ang`, `\num`, `\unit`, `\qty`, `\qtyrange`
+- [`tcolorbox`](https://ctan.org/pkg/tcolorbox)
+    - Nicely formatted and customizable boxes for examples and worked problems
+- [`tikz`](https://ctan.org/pkg/tikz)
+    - A user-friendly frontend for `pgf` adds support for native diagram and graph creation
+    - Automatically loads `pgf`
+- [`threeparttable`](https://ctan.org/pkg/threeparttable)
+    - Provides "footnotes" for tables
+    - `\tnote`
+- [`unicode-math`](https://ctan.org/pkg/unicode-math)
+    - A comprehensive implementation of unicode math for Lua$\LaTeX$
+    - `\setmathfont`
+    - Only supports Lua$\LaTeX$
+- [`xcolor`](https://ctan.org/pkg/xcolor)
+    - Allows for defining and using colors
+    - `\color`, `\definecolor`
 
-## Other Useful Packages
+## Packages for PDF$\LaTeX$ only
 
-Packages I use depending on the type and scale of the document itself.
+When using the Lua$\LaTeX$ compiler with `unicode-math` and a supported math font like [New Computer Modern](https://ctan.org/pkg/newcomputermodern), the following packages are not necessary since their features are already implemented.
+Additionally, the Unicode variants are often much nicer since they can be directly copied into a browser or text editor and are supported by screen readers.
+If you must use PDF$\LaTeX$, these are nice-to-haves.
 
-1. `amssymb` - provides an extended symbol collection as a superset of [`amsfonts`](https://ctan.org/pkg/amsfonts) that includes some more obscure symbols
-   - `amsfonts` is included and loads things like `\mathbb` for characters like $\mathbb{R}$
-   - If the heirarchy of `ams` packages is confusing, check [this](https://tex.stackexchange.com/questions/32100/what-does-each-ams-package-do) thread out
-2. [`amsthm`](https://ctan.org/pkg/amsthm) - enhanced version of $\LaTeX$'s `\newtheorem` command for defining customizable theorem-like environments
-3. [`biblatex`](https://ctan.org/pkg/biblatex) - works in tandem with a `.bib` file to compile references
-4. [`bm`](https://ctan.org/pkg/bm) - bold symbols in math mode that are safer than those from `\boldsymbol`
-5. [`booktabs`](https://ctan.org/pkg/booktabs) - improves the look of tables
-6. [`braket`](https://ctan.org/pkg/braket) - provides macros to typeset bra-ket notation
-7. [`cancel`](https://ctan.org/pkg/cancel) - places lines through cancelled terms in math equations
-8. [`caption`](https://ctan.org/pkg/caption) - customized captions in figure and table environments, I like my caption headings **bolded** for readability
-9. [`derivative`](https://ctan.org/pkg/derivative) - derivatives and differentials via short, easy to remember macros
-10. [`enumitem`](https://ctan.org/pkg/enumitem) - provides additional numbering and structuring control over the enumerate, itemize, and description environments
-11. [`esint`](https://ctan.org/pkg/esint) - useful for typesetting line and surface integrals
-12. [`float`](https://ctan.org/pkg/float) - sometimes necessary for the placement of stubborn figures and tables
-13. [`graphicx`](https://ctan.org/pkg/graphicx) - allows for graphics, images, etc. to be added
-14. [`mathrsfs`](https://ctan.org/pkg/mathrsfs) - provides the `\mathscr` command for formal uppercase script letters like $\mathscr{P}$
-      - The internal $\LaTeX$ script letters from `\mathcal` look like $\mathcal{P}$
-15. [`mhchem`](https://ctan.org/pkg/mhchem) - typesetting for chemical molecular formulae and equations
-16. [`minted`](https://ctan.org/pkg/minted) - syntax highlighting for all sorts of source code using the [Pygments](https://pygments.org) library
-17. [`multicol`](https://ctan.org/pkg/multicol) - can be used to have multiple columns of text, I primarily use it for 2-column lists
-18. [`natex`](https://github.com/nategphillips/natex) - shameless plug, who knew I would use my own package
-19. [`pgfplots`](https://ctan.org/pkg/pgfplots) - draws high-quality function plots in normal or logarithmic scaling with a user-friendly interface
-20. [`siunitx`](https://ctan.org/pkg/siunitx) - a comprehensive SI unit package that includes macros for scientific notation
-21. [`tcolorbox`](https://ctan.org/pkg/tcolorbox) - nicely formatted and customizable boxes for examples and worked problems
-22. [`tikz`](https://ctan.org/pkg/tikz) - adds support for native diagram and graph creation
+- [`amsfonts`](https://ctan.org/pkg/amsfonts)
+    - Adds blackboard math and Fraktur fonts
+    - `\mathbb`, `\mathfrak`
+- [`amssymb`](https://ctan.math.utah.edu/ctan/tex-archive/fonts/amsfonts/source/amssymb.dtx)
+    - Provides an extended symbol collection and loads `amsfonts`; if the heirarchy of AMS packages is confusing, check [this](https://tex.stackexchange.com/questions/32100/what-does-each-ams-package-do) thread out
+    - `\Box`
+- [`bm`](https://ctan.org/pkg/bm)
+    - Bold symbols in math mode that are safer than those from `\boldsymbol`
+- [`esint`](https://ctan.org/pkg/esint)
+    - Necessary for surface, volume, and direction contour integrals when using PDF$\LaTeX$
+    - `\iiint`, `\oiint`, `\ointclockwise`
+- [`mathrsfs`](https://ctan.org/pkg/mathrsfs)
+    - Adds Raph Smith’s Formal Script font to math mode
+    - `\mathscr`
 
-### An Aside on Upright Math
+### Select commands and the relationship between select packages
 
-I have strong opinions on clear and proper notation, and I think everyone should.
-One oft-overlooked aspect of writing I've seen in books is the tendency to strictly use italicized characters in math mode.
-Besides the obvious aesthetic failings, this approach tends towards a lack of clarity due to ambiguities brought upon by the sole use of italics.
-Below, I explain where upright characters should be used to remedy these issues.
+Commands provided by `amssymb`, but technically not `unicode-math`:
+- `\Box`, `\Diamond`, `\leadsto`
+- Note that `unicode-math` can use the following symbols instead: □, ◇, ⇝
 
-The ground rules for using upright characters are as follows (list pulled from [here](https://tex.stackexchange.com/questions/33120/should-subscripts-in-math-mode-be-upright)):
+Commands provided by both `amssymb` and `unicode-math`:
+- `\barwedge`, `\boxdot`, `\boxminus`, `\boxplus`, `\boxtimes`, `\Cap`, `\Cup`
 
-- upright function names $(\sin{x}$, $\cos{x}$, $\ln{x}$, etc.$)$
-- upright differentials $(\mathrm{d}x$ and $\int x \ \mathrm{d}x)$
-- upright dimensionless numbers $(\mathrm{Re}$, $\mathrm{Pr}$, etc.$)$
-- upright descriptive text
-- upright descriptive variable indices (that don't correspond to other variables)
+Commands provided by both `amsfonts` and `unicode-math`:
+- `\mathbb`, `\mathfrak`
 
-I think the first bullet point is clear enough, and is generally well followed.
-After all, most commonly used functions are already defined as built-in macros within $\LaTeX$, so there's no reason *not* to use them.
+Commands provided by both `mathrsfs` and `unicode-math`:
+- `\mathscr`
 
-Typesetting differentials is mainly a matter of personal taste, but I find upright differentials to be more clear.
-From my cursory research, it seems like most mathematicians still prefer the italic text.
-Older textbooks and papers almost exclusively use italics as well.
-In newer texts, I have started seeing a marked increase in the upright variation, so it seems to be catching on.
-
-Upright dimensionless numbers are more important.
-For instance, using $Re$ instead of $\mathrm{Re}$ to denote the Reynold's number is unclear, since $R$ and $e$ could easily be interpreted as two separate variables.
-In most cases, the meaning will be clear from context, but it's always better to adopt a standard and follow it for the sake of consistency.
-Descriptive text falls into the same category.
-
-Variable indices are the most tricky to nail down.
-When the subscript is descriptive, like $a_\mathrm{profile}$, it should be upright.
-For index counters as in $\sum_i x_i$, italic is correct.
-Technically, according to ISO and NIST, one-letter subscripts that refer to a name, such as $k_\mathrm{B}$ for the Boltzmann constant, or $m_\mathrm{e}$ for the mass of an electron, should be upright.
-However, the American Physical Society recommends all single-letter subscripts to be italic.
-I've seen both in books and in papers, but I prefer the APS guidelines.
-To make upright subscripts less of a pain, I found a neat little command on StackExchange at some point, which I've included in [my package](/posts/natex).
-
-By the way, if you're following the official ISO standards, even the imaginary unit $i$, Euler's number $e$, and $\pi$ should be upright.
-This practice is absolutely atrocious and I don't recommend following it.
+Commands provided only by `unicode-math`:
+- `\mathbffrak`, `\mathbfscr`, `\symbfcal`

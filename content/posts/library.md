@@ -1,5 +1,5 @@
 +++
-title = 'library'
+title = 'My library'
 date = 2026-04-13
 draft = false
 tags = ['books']
@@ -33,7 +33,7 @@ summary = 'The books I own.'
 | Singh, Pike & Szafran | *Microscale & Selected Macroscale Experiments for General & Advanced General Chemistry: An Innovative Approach* | 9780471585961 |
 | Zare | *Angular Momentum: Understanding Spatial Aspects in Chemistry and Physics* | 9780471858928 |
 
-## Classic Literature
+## Classic literature
 
 | Author | Title | ISBN |
 | ------ | ----- | ---- |
@@ -43,7 +43,7 @@ summary = 'The books I own.'
 | Twain | *The Adventures of Tom Sawyer* | 9781593081393 |
 | Verne | *Seven Novels* | 9781435122956 |
 
-## Computer Science
+## Computer science
 
 | Author | Title | ISBN |
 | ------ | ----- | ---- |
@@ -218,7 +218,7 @@ summary = 'The books I own.'
 | Schey | *Div, Grad, Curl, and All That: An Informal Text on Vector Calculus* | 9780393925166 |
 | Spiegel | *Applied Differential Equations* | 9780130400970 |
 
-## Modern Literature
+## Modern literature
 
 | Author | Title | ISBN |
 | ------ | ----- | ---- |
@@ -327,7 +327,7 @@ summary = 'The books I own.'
 | Wallace & Hobbs | *Atmospheric Science: An Introductory Survey* | 9780127329512 |
 | Wolfe | *The Right Stuff* | 9780312427566 |
 
-## Science Fiction
+## Science fiction
 
 | Author | Title | ISBN |
 | ------ | ----- | ---- |

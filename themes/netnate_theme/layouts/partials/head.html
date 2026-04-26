@@ -5,7 +5,7 @@
     {{ if .IsHome }}
     {{ site.Title }}
     {{ else }}
-    {{ printf "%s | %s" (lower .Title) site.Title }}
+    {{ printf "%s | %s" .Title site.Title }}
     {{ end }}
 </title>
 

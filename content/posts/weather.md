@@ -1,5 +1,5 @@
 +++
-title = 'weather'
+title = 'Weather resources'
 date = 2025-07-08
 draft = false
 tags = ['weather']
@@ -10,7 +10,7 @@ In the future, this will be a refined list of weather resources, each with a con
 Right now, it's a dumping ground of links.
 For radar, see the [dedicated post](/posts/radar).
 
-## Cool Stuff
+## Cool stuff
 
 ### [College of DuPage NeXt Generation Weather Lab](https://weather.cod.edu)
 
@@ -108,7 +108,7 @@ For radar, see the [dedicated post](/posts/radar).
 
 ### [WXWarn](https://wxwarn.affirmatech.com)
 
-## Link Aggregates
+## Link aggregates
 
 - <https://www.americanwx.com/bb/topic/29651-weather-references-and-newbie-information>
 - <https://www.reddit.com/r/weather/comments/16suejq/good_weather_websites_that_are_not_weathercom>

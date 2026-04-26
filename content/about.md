@@ -4,7 +4,7 @@ type = 'about'
 math = true
 +++
 
-## whoami
+## $ whoami
 
 Hello, I'm Nathan---an aerospace engineering PhD student at Texas A&M University.
 My graduate research involves the application of laser diagnostics to high-enthalpy hypersonic environments, but I maintain an interest in various fields to avoid pigeonholing myself too much.

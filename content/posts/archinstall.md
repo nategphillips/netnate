@@ -1,5 +1,5 @@
 +++
-title = 'archinstall'
+title = 'Notes on installing Arch Linux'
 date = 2024-05-31
 draft = true 
 tags = ['computing']
