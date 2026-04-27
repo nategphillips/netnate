@@ -1,7 +1,7 @@
 baseURL = 'https://netnate.com'
 languageCode = 'en-us'
 title = 'netnate'
-theme = ['netnate_theme', 'hugo-simplecite']
+theme = 'netnate_theme'
 
 [[menus.main]]
 name = 'about'
@@ -30,6 +30,10 @@ weight = 30
                 [markup.goldmark.extensions.passthrough.delimiters]
                     block = [['$$', '$$']]
                     inline = [['$', '$']]
+
+[caches]
+    [caches.images]
+        dir = ':cacheDir/images'
 
 [params]
     math = false

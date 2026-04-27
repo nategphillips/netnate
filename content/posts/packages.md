@@ -7,11 +7,13 @@ tags = ['computing']
 summary = 'A collection of the $\LaTeX$ packages that I use.'
 +++
 
+These days, Lua$\TeX$ is the [officially recommended](https://www.texdev.net/2024/11/05/engine-news-from-the-latex-project) engine over pdf$\TeX$, primarily due to the Unicode support and tagging features it offers.
+I use Lua$\LaTeX$ whenever possible, so keep that in mind when reading this list.
+For users of pdf$\LaTeX$ who would like to match the feature set of `unicode-math`, take a look at the second section.
+
 ## Package listing
 
-These days, Lua$\TeX$ is the [officially recommended](https://www.texdev.net/2024/11/05/engine-news-from-the-latex-project) engine over pdf$\TeX$, primarily due to the Unicode and tagging support it offers.
-I use Lua$\LaTeX$ whenever possible, so keep that in mind when reading this list.
-For users of pdf$\LaTeX$, take a look at the second section.
+Below is an alphabetical list of packages I use with sufficient regularity to suggest:
 
 - [`amsthm`](https://ctan.org/pkg/amsthm)
     - Used for defining customizable theorem-like environments
@@ -19,7 +21,7 @@ For users of pdf$\LaTeX$, take a look at the second section.
 - [`biber`](https://ctan.org/pkg/biber)
     - A UTF-8 supporting backend for Bib$\LaTeX$ that reads and processes entries
 - [`biblatex`](https://ctan.org/pkg/biblatex)
-    - Provides Unicode-aware formatting of bibliographies entirely controlled by LaTeX macros
+    - Provides Unicode-aware formatting of bibliographies entirely controlled by $\LaTeX$ macros
 - [`booktabs`](https://ctan.org/pkg/booktabs)
     - Publication-quality tables
     - `\bottomrule`, `\cmidrule`, `\midrule`, `\toprule`
@@ -71,7 +73,7 @@ For users of pdf$\LaTeX$, take a look at the second section.
     - Recolors the page background and text
     - `\color`, `\pagecolor`
 - [`pgf`](https://ctan.org/pkg/pgf)
-    - Create PostScript and PDF graphics in $\TeX$, great for Matplotlib plots
+    - Essential for creating great-looking `.pgf` plots with Matplotlib and friends
 - [`pgfplots`](https://ctan.org/pkg/pgfplots)
     - Draws high-quality function plots using the TikZ interface
     - Automatically loads `tikz`
@@ -84,13 +86,13 @@ For users of pdf$\LaTeX$, take a look at the second section.
 - [`tcolorbox`](https://ctan.org/pkg/tcolorbox)
     - Nicely formatted and customizable boxes for examples and worked problems
 - [`tikz`](https://ctan.org/pkg/tikz)
-    - A user-friendly frontend for `pgf` adds support for native diagram and graph creation
+    - A user-friendly frontend for `pgf` that adds support for native diagram and graph creation
     - Automatically loads `pgf`
 - [`threeparttable`](https://ctan.org/pkg/threeparttable)
     - Provides "footnotes" for tables
     - `\tnote`
 - [`unicode-math`](https://ctan.org/pkg/unicode-math)
-    - A comprehensive implementation of unicode math for Lua$\LaTeX$
+    - A comprehensive implementation of Unicode math for Lua$\LaTeX$
     - `\setmathfont`
     - Only supports Lua$\LaTeX$
 - [`xcolor`](https://ctan.org/pkg/xcolor)
@@ -111,16 +113,17 @@ If you must use pdf$\LaTeX$, these are nice-to-haves.
     - `\Box`
 - [`bm`](https://ctan.org/pkg/bm)
     - Bold symbols in math mode that are safer than those from `\boldsymbol`
+    - `\bm`
 - [`esint`](https://ctan.org/pkg/esint)
-    - Necessary for surface, volume, and direction contour integrals when using pdf$\LaTeX$
+    - Necessary for surface, volume, and direction contour integrals
     - `\iiint`, `\oiint`, `\ointclockwise`
 - [`mathrsfs`](https://ctan.org/pkg/mathrsfs)
     - Adds Raph Smith’s Formal Script font to math mode
     - `\mathscr`
 
-### Select commands and the relationship between select packages
+### Notes on feature parity with Unicode math
 
-Commands provided by `amssymb`, but technically not `unicode-math`:
+Commands provided by `amssymb`, but technically not by `unicode-math`:
 - `\Box`, `\Diamond`, `\leadsto`
 - Note that `unicode-math` can use the following symbols instead: □, ◇, ⇝
 
