@@ -7,13 +7,15 @@ math = true
 ## $ whoami
 
 Hello, I'm Nathan---an aerospace engineering PhD student at Texas A&M University.
-My graduate research involves the application of laser diagnostics to high-enthalpy hypersonic environments, but I maintain an interest in various fields to avoid pigeonholing myself too much.
+My graduate research involves the application of laser diagnostics to fusion plasmas, high-enthalpy hypersonic environments, and combustion, but I maintain an interest in various other fields to avoid pigeonholing myself too much.
 
 ### Professional
 
 Fission research is pretty exciting these days, and I've always had a soft spot for nuclear power, so the renewed development of molten salt and small-scale reactors is nice to see.
-I'm also rather optimistic about the future of fusion, especially with all the private capital that seems to be entering the market now, and I hope we'll actually have a reactor on the grid in 20 years.
+This summer, I actually have the pleasure of working at Idaho National Laboratory, where I'll be developing and applying laser spectroscopic techniques for MSRs.
+I'm also rather optimistic about the future of fusion, certainly helped with all the private capital that seems to be entering the market now, and I hope we'll actually have a reactor on the grid within the next ten years.
 High-speed propulsion (ram/scramjets, RDEs, etc.) is another neat field, and I'd like to learn more about the state of the art when I have time to do so.
+In case you're interested, [here's my LinkedIn profile](https://www.linkedin.com/in/nategphillips/).
 
 ### Personal
 

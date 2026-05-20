@@ -48,6 +48,7 @@ Relevant links concerning the systemd debacle:
 - [The commit itself](https://github.com/systemd/systemd/pull/40954)
 - [Q&A with the author of the commit](https://itsfoss.com/dylan-taylor-systemd-controversy/)
 - [Lennart Poettering's new company, Amutable](https://amutable.com/blog/introducing-amutable)
+- [Writeup exposing the more nefarious bits](https://tboteproject.com/systemdfindings/)
 
 systemd has been hated for a long time, maybe for good reason:
 - [Suckless](https://suckless.org/sucks/systemd/)
