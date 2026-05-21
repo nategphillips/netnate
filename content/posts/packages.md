@@ -125,7 +125,7 @@ If you must use pdf$\LaTeX$, these are nice-to-haves.
 
 Commands provided by `amssymb`, but technically not by `unicode-math`:
 - `\Box`, `\Diamond`, `\leadsto`
-- Note that `unicode-math` can use the following symbols instead: □, ◇, ⇝
+- Note that `unicode-math` can use the following symbols instead: □ (white square), ◊ (lozenge), ⇝ (rightwards squiggle arrow)
 
 Commands provided by both `amssymb` and `unicode-math`:
 - `\barwedge`, `\boxdot`, `\boxminus`, `\boxplus`, `\boxtimes`, `\Cap`, `\Cup`
