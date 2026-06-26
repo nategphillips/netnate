@@ -1,6 +1,6 @@
 +++
 title = 'My library'
-date = 2026-04-13
+date = 2026-06-25
 draft = false
 tags = ['books']
 summary = 'The books I own.'
@@ -15,15 +15,19 @@ summary = 'The books I own.'
 | Bernath | *Spectra of Atoms and Molecules* | 9780199382576 |
 | Brett et al. | *Quantities, Units and Symbols in Physical Chemistry: Abridged Version* | 9781839161506 |
 | Brown & Carrington | *Rotational Spectroscopy of Diatomic Molecules* | 9780521530781 |
+| Chase & Rabolt | *Fourier Transform Raman Spectroscopy: From Concept to Experiment* | 9780121694302 |
 | Hanson, Spearrin & Goldenstein | *Spectroscopy and Optical Diagnostics for Gases* | 9783319232515 |
 | Harris & Bertolucci | *Symmetry and Spectroscopy: An Introduction to Vibrational and Electronic Spectroscopy* | 9780486661445 |
 | Herzberg | *Atomic Spectra and Atomic Structure* | 9780486601151 |
 | Herzberg | *Molecular Spectra and Molecular Structure: Volume I - Spectra of Diatomic Molecules* | 9780442033859 |
+| Herzberg | *The Spectra and Structures of Simple Free Radicals: An Introduction to Molecular Spectroscopy* | 9780801405846 |
 | Hougen | *The Calculation of Rotational Energy Levels and Rotational Line Intensities in Diatomic Molecules* | LCCN: 604235 |
 | Johnson, Lavelle & Ma | *Student Solutions Manual to Accompany Chemical Principles: The Quest for Insight* | 9781319017569 |
 | Judd | *Angular Momentum Theory for Diatomic Molecules* | 9780123919502 |
 | Kovács | *Rotational Structure in the Spectra of Diatomic Molecules* | 9780852741429 |
 | Lefebvre-Brion & Field | *The Spectra and Dynamics of Diatomic Molecules* | 9780124414556 |
+| Long | *Raman Spectroscopy* | 9780070386754 |
+| Long | *The Raman Effect: A Unified Treatment of the Theory of Raman Scattering by Molecules* | 9780471490289 |
 | Lucht | *Fundamentals of Laser Spectroscopy for Atoms and Diatomic Molecules* | 9781108837927 |
 | Mallick | *Fundamentals of Molecular Spectroscopy* | 9789819907908 |
 | McQuarrie & Simon | *Physical Chemistry: A Molecular Approach* | 9780935702996 |
@@ -31,6 +35,9 @@ summary = 'The books I own.'
 | O'Connor | *Fundamentals of Chemistry* | 9780808715290 |
 | Pauling | *General Chemistry* | 9780716701484 |
 | Singh, Pike & Szafran | *Microscale & Selected Macroscale Experiments for General & Advanced General Chemistry: An Innovative Approach* | 9780471585961 |
+| Smith | *Fundamentals of Fourier Transform Infrared Spectroscopy* | 9780849324611 |
+| Szymanski | *Raman Spectroscopy: Theory and Practice - Volume 1* | LCCN: 6423241 |
+| Szymanski | *Raman Spectroscopy: Theory and Practice - Volume 2* | 9780306377426 |
 | Zare | *Angular Momentum: Understanding Spatial Aspects in Chemistry and Physics* | 9780471858928 |
 
 ## Classic literature
@@ -83,6 +90,7 @@ summary = 'The books I own.'
 | Author | Title | ISBN |
 | ------ | ----- | ---- |
 | Abbott & Doenhoff | *Theory of Wing Sections: Including a Summary of Airfoil Data* | 9780486605869 |
+| Agrawal & Dutta | *Long-Wavelength Semiconductor Lasers* | 9780442209957 |
 | Anderson | *Computational Fluid Dynamics* | 9780070016859 |
 | Anderson | *Fundamentals of Aerodynamics* | 9781259129919 |
 | Anderson | *Hypersonic and High-Temperature Gas Dynamics* | 9781624105142 |
@@ -102,6 +110,7 @@ summary = 'The books I own.'
 | Cogdell | *Foundations of Electrical Engineering* | 9780133295252 |
 | Douglas | *The Secret Horsepower Race: Western Front Fighter Engine Development* | 9781911658504 |
 | Ferziger, Perić & Street | *Computational Methods for Fluid Dynamics* | 9783319996912 |
+| Françon | *Laser Speckle and Applications in Optics* | 9780122657603 |
 | Gere & Timoshenko | *Mechanics of Materials* | 9780534030995 |
 | Hill & Peterson | *Mechanics and Thermodynamics of Propulsion* | 9780201146592 |
 | Horn | *Basic Electronics Theory: With Projects and Experiments* | 9780830607754 |
@@ -114,13 +123,18 @@ summary = 'The books I own.'
 | Leishman | *Principles of Helicopter Aerodynamics* | 9781107013353 |
 | Likins | *Elements of Engineering Mechanics* | 9780070378520 |
 | Loftin | *Quest for Performace: The Evolution of Modern Aircraft* | 9781503105027 |
+| Lukin | *Atmospheric Adaptive Optics* | 9780819418715 |
+| McAulay | *Optical Computer Architectures: The Application of Optical Concepts to Next Generation Computers* | 9780471632429 |
 | McKerrow | *Introduction to Robotics* | 9780201182408 |
 | Metz | *Air Force Legends Number 220: Northrop YF-23 ATF* | 9780989258371 |
 | Moran & Shapiro | *Fundamentals of Engineering Thermodynamics* | 9780471571179 |
 | Morley | *The Linear IC Handbook* | 9780830604722 |
 | Morrison | *Diesel Engineering Handbook* | Pre-ISBN |
 | Munson, Young & Okiishi | *Fundamentals of Fluid Mechanics* | 9780471855262 |
+| Palmer | *Diffraction Grating Handbook* | No ISBN |
 | Park | *Nonequilibrium Hypersonic Aerothermodynamics* | 9780471510932 |
+| Pearson | *Optical Technologies for Aerospace Sensing* | 9780819410412 |
+| Petermann | *Laser Diode Modulation and Noise* | 9780792312048 |
 | Poinsot & Veynante | *Theoretical and Numerical Combustion* | 9782746639904 |
 | Prouty | *Helicopter Performace, Stability, and Control* | 9781575242095 |
 | Rao | *Dynamics of Particles and Rigid Bodies: A Systematic Approach* | 9780521858113 |
@@ -133,6 +147,7 @@ summary = 'The books I own.'
 | Shigley & Mischke | *Mechanical Engineering Design* | 9780070568990 |
 | Silver | *The ARRL Antenna Book for Radio Communications* | 9781625951755 |
 | Silver | *The ARRL Handbook for Radio Communications* | 9781625951571 |
+| Smith | *Atmospheric Propagation of Radiation* | 9780819410726 |
 | Spurk | *Fluid Mechanics* | 9783540616511 |
 | Spurk | *Fluid Mechanics: Problems and Solutions* | 9783540616528 |
 | Steidel | *An Introduction to Mechanical Vibrations* | 9780471845454 |
@@ -253,8 +268,11 @@ summary = 'The books I own.'
 | Born & Wolf | *Principles of Optics* | 9781108477437 |
 | Boyd | *Nonlinear Optics* | 9780323850575 |
 | Carroll | *Spacetime and Geometry: An Introduction to General Relativity* | 9781108488396 |
+| Chamberlain & Hunten | *Theory of Planetary Atmospheres:  An Introduction to Their Physics and Chemistry* | 9780121672515 |
 | Chen | *Introduction to Plasma Physics and Controlled Fusion* | 9783319223087 |
+| Dmitriev, Gurzadyan & Nikogosyan | *Handbook of Nonlinear Optical Crystals* | 9783540612759 |
 | Eckbreth | *Laser Diagnostics for Combustion Temperature and Species* | 9789056995324 |
+| Evans | *The Photon's Magnetic Field: Optical NMR Spectroscopy* | 9789810212650 |
 | Feynman, Leighton & Sands | *Exercises for the Feynman Lectures on Physics* | 9780465060719 |
 | Feynman, Leighton & Sands | *The Feynman Lectures on Physics: Volume I - Mainly Mechanics, Radiation, and Heat* | 9780465024148 |
 | Feynman, Leighton & Sands | *The Feynman Lectures on Physics: Volume II - Mainly Electromagnetism and Matter* | 9780465024162 |
@@ -262,11 +280,15 @@ summary = 'The books I own.'
 | Fleisch | *A Student's Guide to Maxwell's Equations* | 9780521877619 |
 | Fleisch | *A Student's Guide to Vectors and Tensors* | 9780521171908 |
 | Fleisch | *A Student's Guide to the Schrödinger Equation* | 9781108834735 |
+| Fleming & Siegman | *Ultrafast Phenomena V* | 9783540170778 |
 | Ford | *Solutions Guide to Accompany University Physics* | 9780201072259 |
 | Fowles | *Introduction to Modern Optics* | 9780486659572 |
 | Fox | *A Student's Guide to Atomic Physics* | 9781107188730 |
+| Fromhold | *Quantum Mechanics for Applied Physics and Engineering* | 9780486667416 |
 | Garvin | *A Student's Guide to the Navier-Stokes Equations* | 9781009236157 |
+| Gibbon | *Short Pulse Laser Interactions with Matter: An Introduction* | 9781860941351 |
 | Goldstein, Poole & Safko | *Classical Mechanics* | 9780201657029 |
+| Griem | *Spectral Line Broadening by Plasmas* | 9780123028501 |
 | Griffiths | *Introduction to Electrodynamics* | 9781108420419 |
 | Griffiths | *Introduction to Elementary Particles* | 9783527406012 |
 | Griffiths & Schroeter | *Introduction to Quantum Mechanics* | 9781107189638 |
@@ -284,6 +306,7 @@ summary = 'The books I own.'
 | Krane | *Introductory Nuclear Physics* | 9780471805533 |
 | Landau & Lifshitz | *Course of Theoretical Physics: Volume 1 - Mechanics* | 9780750628969 |
 | Landau & Lifshitz | *Course of Theoretical Physics: Volume 6 - Fluid Mechanics* | 9787506242608 |
+| Mandel & Wolf | *Coherence and Quantum Optics V* | 9780306415173 |
 | Morse | *Nuclear Fusion* | 9783319981703 |
 | Navas et al. | *Review of Particle Physics* | DOI: 10.1103/PhysRevD.110.030001 |
 | Neuenschwander | *Tensor Calculus for Physics* | 9781421415659 |
@@ -299,11 +322,15 @@ summary = 'The books I own.'
 | Sears, Zemansky & Young | *University Physics: Part I* | 9780201071962 |
 | Shankar | *Principles of Quantum Mechanics* | 9780306447907 |
 | Siegman | *Lasers* | 9780935702118 |
+| StWalley & Lapp | *Advances in Laser Science - I* | 9780883183458 |
+| Stix | *Waves in Plasmas* | 9780883188590 |
 | Susskind & Cabannes | *The Theoretical Minimum: General Relativity* | 9780141999869 |
 | Susskind & Friedman | *The Theoretical Minimum: Quantum Mechanics* | 9780141977812 |
 | Susskind & Friedman | *The Theoretical Minimum: Special Relativity and Classical Field Theory* | 9780141985015 |
 | Susskind & Hrabovsky | *The Theoretical Minimum: Classical Mechanics* | 9780141976228 |
 | Taylor | *Classical Mechanics* | 9781891389221 |
+| Varma | *Handbook of Inductively Coupled Atomic Emission Spectroscopy* | 9780849339370 |
+| Yeh | *Introduction to Photorefractive Nonlinear Optics* | 9780471586920 |
 | Zangwill | *Modern Electrodynamics* | 9780521896979 |
 
 ## Science
