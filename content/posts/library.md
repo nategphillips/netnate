@@ -195,6 +195,7 @@ summary = 'The books I own.'
 | Russell | *A History of Western Philosophy* | 9780671201586 |
 | Rutter | *Wreaking Havoc: A Year in an A-20* | 9781603447379 |
 | Smith | *The United States Navy in World War II* | LCCN: 6622113 |
+| Stacy | *Proving the Principle: A History of the Idaho National Engineering and Environmental Laboratory - 1949-1999* | 9780160591853 |
 | Suetonius | *The Twelve Caesars* | 9780140455168 |
 | Uttridge | *Military Uniforms: Visual Encyclopedia* | 9781908273024 |
 | Yeager & Janos | *Yeager: An Autobiography* | 9780553050936 |
