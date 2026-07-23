@@ -37,38 +37,60 @@ summary = 'The books I own.'
 
 ## Computer science
 
+### Algorithms
+
+| Author | Title | ISBN |
+| ------ | ----- | ---- |
+| Cormen, Leiserson, Rivest & Stein | *Introduction to Algorithms* | 9780262046305 |
+| Sedgewick | *Algorithms in C: Part 5 - Graph Algorithms* | 9780201316636 |
+| Sedgewick | *Algorithms in C: Parts 1-4 - Fundamentals, Data Structures, Sorting, Searching* | 9780201314526 |
+
+### Numerical methods
+
+| Author | Title | ISBN |
+| ------ | ----- | ---- |
+| James, Smith & Wolford | *Applied Numerical Methods for Digital Computation* | 9780060432812 |
+| Kiusalaas | *Numerical Methods in Engineering with Python 3* | 9781107033856 |
+| Press, Teukolsky, Vetterling & Flannery | *Numerical Recipes: The Art of Scientific Computing* | 9780521880688 |
+
+### Operating systems
+
 | Author | Title | ISBN |
 | ------ | ----- | ---- |
 | Arpaci-Dusseau & Arpaci-Dusseau | *Operating Systems: Three Easy Pieces* | No ISBN |
+| Ward | *How Linux Works: What Every Superuser Should Know* | 9781718500402 |
+
+### Programming languages
+
+| Author | Title | ISBN |
+| ------ | ----- | ---- |
 | Ball | *Writing a Compiler in Go* | 9783982016108 |
 | Ball | *Writing an Interpreter in Go* | 9783982016115 |
 | Blandy, Orendorff & Tindall | *Programming Rust: Fast, Safe Systems Development* | 9781492052593 |
 | Bodner | *Learning Go: An Idiomatic Approach to Real-World Go Programming* | 9781098139292 |
 | Boillot | *Understanding FORTRAN* | 9780829903553 |
-| Cormen, Leiserson, Rivest & Stein | *Introduction to Algorithms* | 9780262046305 |
 | Gjengset | *Rust for Rustaceans: Idiomatic Programming for Experienced Developers* | 9781718501850 |
 | Gorelick & Ozsvald | *High Performance Python: Practical Performant Programming for Humans* | 9781492055020 |
 | Gustedt | *Modern C* | 9781633437777 |
-| James, Smith & Wolford | *Applied Numerical Methods for Digital Computation* | 9780060432812 |
 | Kernighan & Ritchie | *The C Programming Language* | 9780131103627 |
 | King | *C Programming: A Modern Approach* | 9780393979503 |
-| Kiusalaas | *Numerical Methods in Engineering with Python 3* | 9781107033856 |
 | Klabnik & Nichols | *The Rust Programming Language* | 9781718503106 |
+| Matthes | *Python Crash Course: A Hands-On, Project-Based Introduction to Programming* | 9781593279288 |
+| Phillips | *Practical Julia: A Hands-on Introduction for Scientific Minds* | 9781718502765 |
+| Ramalho | *Fluent Python: Clear, Concise, and Effective Programming* | 9781492056355 |
+| Slatkin | *Effective Python: 90 Specific Ways to Write Better Python* | 9780134853987 |
+| Woodbeck | *Network Programming with Go: Code Secure and Reliable Network Services from Scratch* | 9781718500884 |
+
+### Typesetting
+
+| Author | Title | ISBN |
+| ------ | ----- | ---- |
 | Knuth | *Computers & Typesetting: Volume A - The TeXbook* | 9780201134476 |
 | Knuth | *Computers & Typesetting: Volume B - TeX: The Program* | 9780201134377 |
 | Knuth | *Computers & Typesetting: Volume C - The METAFONTbook* | 9780201134452 |
 | Knuth | *Computers & Typesetting: Volume D - METAFONT: The Program* | 9780201134384 |
 | Knuth | *Computers & Typesetting: Volume E - Computer Modern Typefaces* | 9780201134469 |
 | Lamport | *LaTeX: A Document Preparation System* | 9780201529838 |
-| Matthes | *Python Crash Course: A Hands-On, Project-Based Introduction to Programming* | 9781593279288 |
-| Phillips | *Practical Julia: A Hands-on Introduction for Scientific Minds* | 9781718502765 |
-| Press, Teukolsky, Vetterling & Flannery | *Numerical Recipes: The Art of Scientific Computing* | 9780521880688 |
-| Ramalho | *Fluent Python: Clear, Concise, and Effective Programming* | 9781492056355 |
-| Sedgewick | *Algorithms in C: Part 5 - Graph Algorithms* | 9780201316636 |
-| Sedgewick | *Algorithms in C: Parts 1-4 - Fundamentals, Data Structures, Sorting, Searching* | 9780201314526 |
-| Slatkin | *Effective Python: 90 Specific Ways to Write Better Python* | 9780134853987 |
-| Ward | *How Linux Works: What Every Superuser Should Know* | 9781718500402 |
-| Woodbeck | *Network Programming with Go: Code Secure and Reliable Network Services from Scratch* | 9781718500884 |
 
 ## Engineering
 
@@ -129,6 +151,7 @@ summary = 'The books I own.'
 | Author | Title | ISBN |
 | ------ | ----- | ---- |
 | Batchelor | *An Introduction to Fluid Dynamics* | 9780521041188 |
+| Garvin | *A Student's Guide to the Navier-Stokes Equations* | 9781009236157 |
 | Munson, Young & Okiishi | *Fundamentals of Fluid Mechanics* | 9780471855262 |
 | Schlichting | *Boundary Layer Theory* | 9780070553347 |
 | Spurk | *Fluid Mechanics* | 9783540616511 |
@@ -163,14 +186,9 @@ summary = 'The books I own.'
 | Author | Title | ISBN |
 | ------ | ----- | ---- |
 | Askeland | *The Science and Engineering of Materials* | 9780534029579 |
+| Becker, Carey & Oden | *Finite Elements: An Introduction - Volume I* | 9780133170573 |
 | Bedford & Liechti | *Mechanics of Materials* | 9783030220815 |
 | Gere & Timoshenko | *Mechanics of Materials* | 9780534030995 |
-
-### Numerical methods
-
-| Author | Title | ISBN |
-| ------ | ----- | ---- |
-| Becker, Carey & Oden | *Finite Elements: An Introduction - Volume I* | 9780133170573 |
 | Reddy | *An Introduction to the Finite Element Method* | 9780070513556 |
 
 ### Orbital mechanics
@@ -347,7 +365,6 @@ summary = 'The books I own.'
 | ------ | ----- | ---- |
 | Fox | *A Student's Guide to Atomic Physics* | 9781107188730 |
 | Joachain, Kylstra & Potvliege | *Atoms in Intense Laser Fields* | 9780521793018 |
-| Varma | *Handbook of Inductively Coupled Atomic Emission Spectroscopy* | 9780849339370 |
 
 ### Classical mechanics
 
@@ -357,6 +374,7 @@ summary = 'The books I own.'
 | Fleisch | *A Student's Guide to Vectors and Tensors* | 9780521171908 |
 | Goldstein, Poole & Safko | *Classical Mechanics* | 9780201657029 |
 | Landau & Lifshitz | *Course of Theoretical Physics: Volume 1 - Mechanics* | 9780750628969 |
+| Landau & Lifshitz | *Course of Theoretical Physics: Volume 6 - Fluid Mechanics* | 9787506242608 |
 | Susskind & Hrabovsky | *The Theoretical Minimum: Classical Mechanics* | 9780141976228 |
 | Taylor | *Classical Mechanics* | 9781891389221 |
 
@@ -370,13 +388,6 @@ summary = 'The books I own.'
 | Griffiths | *Introduction to Electrodynamics* | 9781108420419 |
 | Jackson | *Classical Electrodynamics* | 9780471431329 |
 | Zangwill | *Modern Electrodynamics* | 9780521896979 |
-
-### Fluid dynamics
-
-| Author | Title | ISBN |
-| ------ | ----- | ---- |
-| Garvin | *A Student's Guide to the Navier-Stokes Equations* | 9781009236157 |
-| Landau & Lifshitz | *Course of Theoretical Physics: Volume 6 - Fluid Mechanics* | 9787506242608 |
 
 ### Fusion physics
 
@@ -439,12 +450,6 @@ summary = 'The books I own.'
 | Krane | *Introductory Nuclear Physics* | 9780471805533 |
 | Reed | *The Physics of the Manhattan Project* | 9783030613723 |
 
-### Opics
-
-| Author | Title | ISBN |
-| ------ | ----- | ---- |
-| Françon | *Laser Speckle and Applications in Optics* | 9780122657603 |
-
 ### Optics
 
 | Author | Title | ISBN |
@@ -453,6 +458,7 @@ summary = 'The books I own.'
 | Boyd | *Nonlinear Optics* | 9780323850575 |
 | Dmitriev, Gurzadyan & Nikogosyan | *Handbook of Nonlinear Optical Crystals* | 9783540612759 |
 | Fowles | *Introduction to Modern Optics* | 9780486659572 |
+| Françon | *Laser Speckle and Applications in Optics* | 9780122657603 |
 | Hecht | *Optics* | 9780805385663 |
 | Lukin | *Atmospheric Adaptive Optics* | 9780819418715 |
 | Mandel & Wolf | *Coherence and Quantum Optics V* | 9780306415173 |
@@ -475,7 +481,6 @@ summary = 'The books I own.'
 | Author | Title | ISBN |
 | ------ | ----- | ---- |
 | Chen | *Introduction to Plasma Physics and Controlled Fusion* | 9783319223087 |
-| Griem | *Spectral Line Broadening by Plasmas* | 9780123028501 |
 | Stix | *Waves in Plasmas* | 9780883188590 |
 
 ### Quantum field theory
@@ -512,6 +517,7 @@ summary = 'The books I own.'
 | Chase & Rabolt | *Fourier Transform Raman Spectroscopy: From Concept to Experiment* | 9780121694302 |
 | Eckbreth | *Laser Diagnostics for Combustion Temperature and Species* | 9789056995324 |
 | Evans | *The Photon's Magnetic Field: Optical NMR Spectroscopy* | 9789810212650 |
+| Griem | *Spectral Line Broadening by Plasmas* | 9780123028501 |
 | Hanson, Spearrin & Goldenstein | *Spectroscopy and Optical Diagnostics for Gases* | 9783319232515 |
 | Harris & Bertolucci | *Symmetry and Spectroscopy: An Introduction to Vibrational and Electronic Spectroscopy* | 9780486661445 |
 | Herzberg | *Atomic Spectra and Atomic Structure* | 9780486601151 |
@@ -529,6 +535,7 @@ summary = 'The books I own.'
 | Smith | *Fundamentals of Fourier Transform Infrared Spectroscopy* | 9780849324611 |
 | Szymanski | *Raman Spectroscopy: Theory and Practice - Volume 1* | LCCN: 6423241 |
 | Szymanski | *Raman Spectroscopy: Theory and Practice - Volume 2* | 9780306377426 |
+| Varma | *Handbook of Inductively Coupled Atomic Emission Spectroscopy* | 9780849339370 |
 | Zare | *Angular Momentum: Understanding Spatial Aspects in Chemistry and Physics* | 9780471858928 |
 
 ### Statistical mechanics
