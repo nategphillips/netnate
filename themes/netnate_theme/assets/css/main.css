@@ -27,6 +27,13 @@ Color theme is [Catppuccin mocha](https://catppuccin.com/palette/#flavor-mocha).
     --p-crust: #11111b;
 }
 
+/* scrollbar */
+
+html {
+    scrollbar-color: var(--p-teal) var(--p-crust);
+    scrollbar-width: thin;
+}
+
 /* body */
 
 body {
@@ -281,9 +288,29 @@ blockquote ul {
 
 /* table of contents */
 
+.toc {
+    max-height: calc(100vh - 2rem);
+    overflow-y: auto;
+    padding-right: 0.5rem;
+}
+
+.toc > h2,
+.toc .toc-title {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: var(--p-crust);
+    margin-top: 0;
+    padding: 0.5rem 0;
+}
+
 .toc ul {
     list-style: disc;
     display: block;
+}
+
+.toc ul ul {
+    list-style-type: circle;
 }
 
 .toc a {

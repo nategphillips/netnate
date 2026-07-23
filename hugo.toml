@@ -20,7 +20,7 @@ weight = 30
 
 [markup]
     [markup.tableOfContents]
-        endLevel = 2
+        endLevel = 3
     [markup.highlight]
         style = 'catppuccin-mocha'
     [markup.goldmark]
