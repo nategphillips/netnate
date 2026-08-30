@@ -1,6 +1,6 @@
 +++
 title = 'My library'
-date = 2026-07-22
+date = 2026-08-30
 draft = false
 tags = ['books']
 summary = 'The books I own.'
@@ -45,6 +45,13 @@ summary = 'The books I own.'
 | Sedgewick | *Algorithms in C: Part 5 - Graph Algorithms* | 9780201316636 |
 | Sedgewick | *Algorithms in C: Parts 1-4 - Fundamentals, Data Structures, Sorting, Searching* | 9780201314526 |
 
+### Compilers
+
+| Author | Title | ISBN |
+| ------ | ----- | ---- |
+| Ball | *Writing a Compiler in Go* | 9783982016108 |
+| Ball | *Writing an Interpreter in Go* | 9783982016115 |
+
 ### Numerical methods
 
 | Author | Title | ISBN |
@@ -64,8 +71,6 @@ summary = 'The books I own.'
 
 | Author | Title | ISBN |
 | ------ | ----- | ---- |
-| Ball | *Writing a Compiler in Go* | 9783982016108 |
-| Ball | *Writing an Interpreter in Go* | 9783982016115 |
 | Blandy, Orendorff & Tindall | *Programming Rust: Fast, Safe Systems Development* | 9781492052593 |
 | Bodner | *Learning Go: An Idiomatic Approach to Real-World Go Programming* | 9781098139292 |
 | Boillot | *Understanding FORTRAN* | 9780829903553 |
@@ -390,12 +395,6 @@ summary = 'The books I own.'
 | Jackson | *Classical Electrodynamics* | 9780471431329 |
 | Zangwill | *Modern Electrodynamics* | 9780521896979 |
 
-### Fusion physics
-
-| Author | Title | ISBN |
-| ------ | ----- | ---- |
-| Morse | *Nuclear Fusion* | 9783319981703 |
-
 ### General physics
 
 | Author | Title | ISBN |
@@ -487,6 +486,7 @@ summary = 'The books I own.'
 | Author | Title | ISBN |
 | ------ | ----- | ---- |
 | Chen | *Introduction to Plasma Physics and Controlled Fusion* | 9783319223087 |
+| Morse | *Nuclear Fusion* | 9783319981703 |
 | Stix | *Waves in Plasmas* | 9780883188590 |
 
 ### Quantum field theory
