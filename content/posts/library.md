@@ -111,6 +111,7 @@ summary = 'The books I own.'
 | ------ | ----- | ---- |
 | Anderson | *Computational Fluid Dynamics* | 9780070016859 |
 | Ferziger, Perić & Street | *Computational Methods for Fluid Dynamics* | 9783319996912 |
+| Oran & Boris | *Numerical Simulation of Reactive Flow* | 9780521581752 |
 | Poinsot & Veynante | *Theoretical and Numerical Combustion* | 9782746639904 |
 
 ### Design
@@ -423,19 +424,24 @@ summary = 'The books I own.'
 | Gibbon | *Short Pulse Laser Interactions with Matter: An Introduction* | 9781860941351 |
 | Hallmark | *Lasers, the Light Fantastic* | 9780830698578 |
 | Hecht | *The Laser Guidebook* | 9780830642748 |
+| Keller | *Ultrafast Lasers: A Comprehensive Introduction to Fundamental Principles with Practical Applications* | 9783030825317 |
 | Petermann | *Laser Diode Modulation and Noise* | 9780792312048 |
 | Siegman | *Lasers* | 9780935702118 |
 | StWalley & Lapp | *Advances in Laser Science - I* | 9780883183458 |
+| Weiner | *Ultrafast Optics* | 9780471415398 |
 
 ### Mathematical physics
 
 | Author | Title | ISBN |
 | ------ | ----- | ---- |
 | Hassani | *Mathematical Physics: A Modern Introduction to Its Foundations* | 9783319011943 |
+| Hylleraas | *Mathematical and Theoretical Physics: Volume I* | 9780471426011 |
+| Hylleraas | *Mathematical and Theoretical Physics: Volume II* | 9780471426028 |
 | Jeevanjee | *An Introduction to Tensors and Group Theory for Physicists* | 9783319147932 |
 | Neuenschwander | *Tensor Calculus for Physics* | 9781421415659 |
 | Robinson | *Symmetry and the Standard Model: Mathematics and Particle Physics* | 9781441982667 |
 | Schwichtenberg | *Physics from Symmetry* | 9783319666303 |
+| Wigner | *Group Theory and its Application to the Quantum Mechanics of Atomic Spectra* | 9780127505503 |
 
 ### Modern physics
 
@@ -517,6 +523,7 @@ summary = 'The books I own.'
 | Chase & Rabolt | *Fourier Transform Raman Spectroscopy: From Concept to Experiment* | 9780121694302 |
 | Eckbreth | *Laser Diagnostics for Combustion Temperature and Species* | 9789056995324 |
 | Evans | *The Photon's Magnetic Field: Optical NMR Spectroscopy* | 9789810212650 |
+| Faisal | *Theory of Multiphoton Processes* | 9780306423178 |
 | Griem | *Spectral Line Broadening by Plasmas* | 9780123028501 |
 | Hanson, Spearrin & Goldenstein | *Spectroscopy and Optical Diagnostics for Gases* | 9783319232515 |
 | Harris & Bertolucci | *Symmetry and Spectroscopy: An Introduction to Vibrational and Electronic Spectroscopy* | 9780486661445 |
@@ -531,8 +538,10 @@ summary = 'The books I own.'
 | Long | *The Raman Effect: A Unified Treatment of the Theory of Raman Scattering by Molecules* | 9780471490289 |
 | Lucht | *Fundamentals of Laser Spectroscopy for Atoms and Diatomic Molecules* | 9781108837927 |
 | Mallick | *Fundamentals of Molecular Spectroscopy* | 9789819907908 |
+| Mizushima | *Quantum Mechanics of Atomic Spectra and Atomic Structure* | 9780805371208 |
 | Mizushima | *The Theory of Rotating Diatomic Molecules* | 9780471611875 |
 | Smith | *Fundamentals of Fourier Transform Infrared Spectroscopy* | 9780849324611 |
+| Sobel'man | *An Introduction to the Theory of Atomic Spectra* | 9780080161662 |
 | Szymanski | *Raman Spectroscopy: Theory and Practice - Volume 1* | LCCN: 6423241 |
 | Szymanski | *Raman Spectroscopy: Theory and Practice - Volume 2* | 9780306377426 |
 | Varma | *Handbook of Inductively Coupled Atomic Emission Spectroscopy* | 9780849339370 |
