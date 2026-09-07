@@ -1,6 +1,6 @@
 +++
 title = 'My library'
-date = 2026-08-30
+date = 2026-09-07
 draft = false
 tags = ['books']
 summary = 'The books I own.'
@@ -427,7 +427,6 @@ summary = 'The books I own.'
 | Petermann | *Laser Diode Modulation and Noise* | 9780792312048 |
 | Siegman | *Lasers* | 9780935702118 |
 | StWalley & Lapp | *Advances in Laser Science - I* | 9780883183458 |
-| Weiner | *Ultrafast Optics* | 9780471415398 |
 
 ### Mathematical physics
 
@@ -472,6 +471,7 @@ summary = 'The books I own.'
 | Pearson | *Optical Technologies for Aerospace Sensing* | 9780819410412 |
 | Pedrotti, Pedrotti & Pedrotti | *Introduction to Optics* | 9780131499331 |
 | Smith | *Atmospheric Propagation of Radiation* | 9780819410726 |
+| Weiner | *Ultrafast Optics* | 9780471415398 |
 | Yeh | *Introduction to Photorefractive Nonlinear Optics* | 9780471586920 |
 
 ### Particle physics
@@ -486,6 +486,7 @@ summary = 'The books I own.'
 | Author | Title | ISBN |
 | ------ | ----- | ---- |
 | Chen | *Introduction to Plasma Physics and Controlled Fusion* | 9783319223087 |
+| Miyamoto | *Plasma Physics for Nuclear Fusion* | 9780262131452 |
 | Morse | *Nuclear Fusion* | 9783319981703 |
 | Stix | *Waves in Plasmas* | 9780883188590 |
 
@@ -521,6 +522,7 @@ summary = 'The books I own.'
 | Bernath | *Spectra of Atoms and Molecules* | 9780199382576 |
 | Brown & Carrington | *Rotational Spectroscopy of Diatomic Molecules* | 9780521530781 |
 | Chase & Rabolt | *Fourier Transform Raman Spectroscopy: From Concept to Experiment* | 9780121694302 |
+| Condon & Shortley | *The Theory of Atomic Spectra* | 9780521047135 |
 | Eckbreth | *Laser Diagnostics for Combustion Temperature and Species* | 9789056995324 |
 | Evans | *The Photon's Magnetic Field: Optical NMR Spectroscopy* | 9789810212650 |
 | Faisal | *Theory of Multiphoton Processes* | 9780306423178 |
