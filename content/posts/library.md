@@ -1,6 +1,6 @@
 +++
 title = 'My library'
-date = 2026-09-07
+date = 2026-09-14
 draft = false
 tags = ['books']
 summary = 'The books I own.'
@@ -105,8 +105,8 @@ summary = 'The books I own.'
 | ------ | ----- | ---- |
 | Abbott & Doenhoff | *Theory of Wing Sections: Including a Summary of Airfoil Data* | 9780486605869 |
 | Anderson | *Fundamentals of Aerodynamics* | 9781259129919 |
-| Anderson | *Introduction to Flight* | 9781307493078 |
 | Anderson | *Introduction to Flight* | 9780078027673 |
+| Anderson | *Introduction to Flight* | 9781307493078 |
 | Anderson | *Modern Compressible Flow: With Historical Perspective* | 9780072424430 |
 | Hurt | *Aerodynamics for Naval Aviators* | 9781492948209 |
 
@@ -163,8 +163,8 @@ summary = 'The books I own.'
 | Spurk | *Fluid Mechanics* | 9783540616511 |
 | Spurk | *Fluid Mechanics: Problems and Solutions* | 9783540616528 |
 | Thompson | *Compressible Fluid Dynamics* | 9780706440553 |
-| White | *Viscous Fluid Flow* | 9780072402315 |
 | White | *Viscous Fluid Flow* | 9780070697102 |
+| White | *Viscous Fluid Flow* | 9780072402315 |
 
 ### Gas dynamics
 
@@ -489,6 +489,7 @@ summary = 'The books I own.'
 | Miyamoto | *Plasma Physics for Nuclear Fusion* | 9780262131452 |
 | Morse | *Nuclear Fusion* | 9783319981703 |
 | Stix | *Waves in Plasmas* | 9780883188590 |
+| Tajima | *Computational Plasma Physics: With Applications To Fusion And Astrophysics* | 9780201164114 |
 
 ### Quantum field theory
 
