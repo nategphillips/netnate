@@ -399,13 +399,14 @@ Create a shared Julia environment called `@nvim-lspconfig` and manually install 
 
 {{< notice note >}}
 
-Some time in the past few months (since the release of Julia 1.12?) it seems like `StaticLint.jl` and `SymbolServer.jl` need to be explicitly installed alongside `LanguageServer.jl` despite both being dependencies of the latter.
+The `StaticLint.jl` and `SymbolServer.jl` packages have been deprecated and replaced by `JuliaWorkspaces.jl` as of 13-07-2026, which is a dependency of `LanguageServer.jl` and installs automatically.
+As time goes on, the current offering might be replaced with `JETLS.jl`.
 
 {{< /notice >}}
 
 
 ```julia
-julia --project=@nvim-lspconfig -e 'using Pkg; Pkg.add("LanguageServer"); Pkg.add("StaticLint"); Pkg.add("SymbolServer")'
+julia --project=@nvim-lspconfig -e 'using Pkg; Pkg.add("LanguageServer")'
 ```
 
 Add `vim.lsp.enable("julials")` inside your `nvim-lspconfig.lua` file.
