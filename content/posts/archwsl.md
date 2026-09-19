@@ -392,25 +392,11 @@ Auditing the script by simply `curl`ing the output to bash, as many people sugge
 
 #### Neovim LSP
 
-Attempting to install the julials language server through [Mason](https://github.com/mason-org/mason.nvim) does not work at the time of writing (25/08/15).
-There is an [open issue](https://github.com/mason-org/mason-lspconfig.nvim/issues/582) referencing this problem, but until it gets resolved, there is a manual solution.
-User `danielwe` on the Julia discourse board posted a [solution](https://discourse.julialang.org/t/neovim-languageserver-jl-crashing-again/130273/3) which I'll reiterate here.
-Create a shared Julia environment called `@nvim-lspconfig` and manually install the `LanguageServer.jl` package inside it.
-
-{{< notice note >}}
-
-The `StaticLint.jl` and `SymbolServer.jl` packages have been deprecated and replaced by `JuliaWorkspaces.jl` as of 13-07-2026, which is a dependency of `LanguageServer.jl` and installs automatically.
-As time goes on, the current offering might be replaced with `JETLS.jl`.
-
-{{< /notice >}}
-
-
-```julia
-julia --project=@nvim-lspconfig -e 'using Pkg; Pkg.add("LanguageServer")'
-```
-
-Add `vim.lsp.enable("julials")` inside your `nvim-lspconfig.lua` file.
-Neovim's LSP will automatically find the language server at the installed location.
+The "official" language server `LanguageServer.jl` does not work well with Neovim, with features like go-to definition, warnings, and integration with local packages being completely broken at time of writing (26/09/2026), at least for me.
+I *think* this happened when the `StaticLint.jl` and `SymbolServer.jl` packages were deprecated and replaced by `JuliaWorkspaces.jl` on 13/07/2026, but I can't be sure since I didn't use the LSP during this period.
+These days, it seems `JETLS.jl` is the modern LSP anyhow, so that's what I use.
+Simply follow the [server](https://aviatesk.github.io/JETLS.jl/release/#index/server-installation) and [Neovim](https://aviatesk.github.io/JETLS.jl/release/#index/editor-setup/neovim) installation instructions.
+JETLS also uses the `Runic.jl` [formatter](https://github.com/fredrikekre/Runic.jl#installation) by default, which requires a separate installation.
 
 #### Julia workflow
 
