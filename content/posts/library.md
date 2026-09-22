@@ -1,6 +1,6 @@
 +++
 title = 'My library'
-date = 2026-09-20
+date = 2026-09-21
 draft = false
 tags = ['books']
 summary = 'The books I own.'
@@ -487,6 +487,7 @@ summary = 'The books I own.'
 | ------ | ----- | ---- |
 | Chen | *Introduction to Plasma Physics and Controlled Fusion* | 9783319223087 |
 | Freidberg | *Plasma Physics and Fusion Energy* | 9780521733175 |
+| Goedbloed, Keppens & Poedts | *Magnetohydrodynamics of Laboratory and Astrophysical Plasmas* | 9781107123922 |
 | Miyamoto | *Plasma Physics for Nuclear Fusion* | 9780262131452 |
 | Morse | *Nuclear Fusion* | 9783319981703 |
 | Stix | *Waves in Plasmas* | 9780883188590 |
