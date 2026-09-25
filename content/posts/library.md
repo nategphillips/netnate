@@ -170,6 +170,7 @@ summary = 'The books I own.'
 
 | Author | Title | ISBN |
 | ------ | ----- | ---- |
+| Boyd & Schwartzentruber | *Nonequilibrium Gas Dynamics and Molecular Simulation* | 9781107073449 |
 | John | *Gas Dynamics* | 9780205080144 |
 
 ### Helicopter aerodynamics
