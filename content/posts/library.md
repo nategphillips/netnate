@@ -1,6 +1,6 @@
 +++
 title = 'My library'
-date = 2026-09-21
+date = 2026-10-03
 draft = false
 tags = ['books']
 summary = 'The books I own.'
@@ -486,11 +486,13 @@ summary = 'The books I own.'
 
 | Author | Title | ISBN |
 | ------ | ----- | ---- |
+| Chen | *An Indispensable Truth: How Fusion Power Can Save the Planet* | 9783030643430 |
 | Chen | *Introduction to Plasma Physics and Controlled Fusion* | 9783319223087 |
 | Freidberg | *Plasma Physics and Fusion Energy* | 9780521733175 |
 | Goedbloed, Keppens & Poedts | *Magnetohydrodynamics of Laboratory and Astrophysical Plasmas* | 9781107123922 |
 | Miyamoto | *Plasma Physics for Nuclear Fusion* | 9780262131452 |
 | Morse | *Nuclear Fusion* | 9783319981703 |
+| Reinders | *The Fairy Tale of Nuclear Fusion* | 9781441978196 |
 | Stix | *Waves in Plasmas* | 9780883188590 |
 | Tajima | *Computational Plasma Physics: With Applications To Fusion And Astrophysics* | 9780201164114 |
 
