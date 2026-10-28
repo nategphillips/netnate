@@ -1,6 +1,6 @@
 +++
 title = 'My library'
-date = 2026-10-03
+date = 2026-10-27
 draft = false
 tags = ['books']
 summary = 'The books I own.'
@@ -482,6 +482,13 @@ summary = 'The books I own.'
 | Griffiths | *Introduction to Elementary Particles* | 9783527406012 |
 | Navas et al. | *Review of Particle Physics* | DOI: 10.1103/PhysRevD.110.030001 |
 
+### Physical kinetics
+
+| Author | Title | ISBN |
+| ------ | ----- | ---- |
+| Landau & Pitaevskii | *Course of Theoretical Physics: Volume 10 - Physical Kinetics* | 9780750626354 |
+| Liboff | *Introduction to the Theory of Kinetic Equations* | 9780471534129 |
+
 ### Plasma physics
 
 | Author | Title | ISBN |
@@ -566,18 +573,6 @@ summary = 'The books I own.'
 | Author | Title | ISBN |
 | ------ | ----- | ---- |
 | Becker, Becker & Schwarz | *String Theory and M-Theory: A Modern Introduction* | 9780521860697 |
-
-## Religion
-
-| Author | Title | ISBN |
-| ------ | ----- | ---- |
-| - | *Biblia Sacra Vulgata* | ? |
-| - | *Catechism of the Catholic Church: Ascension Edition* | 9781954881648 |
-| - | *Holy Bible: Douay Rheims Version* | 9781935302032 |
-| - | *Holy Bible: New American Version* | ? |
-| - | *Holy Bible: Revised Standard Version - Second Catholic Edition* | 9781945179419 |
-| - | *Ignatius Catholic Study Bible: Old and New Testament* | 978158176143 |
-| Bergman | *Treasure and Tradition: The Ultimate Guide to the Latin Mass* | 9781936639366 |
 
 ## Science
 
