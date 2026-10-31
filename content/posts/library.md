@@ -415,6 +415,14 @@ summary = 'The books I own.'
 | Carroll | *Spacetime and Geometry: An Introduction to General Relativity* | 9781108488396 |
 | Susskind & Cabannes | *The Theoretical Minimum: General Relativity* | 9780141999869 |
 
+### Kinetic theory
+
+| Author | Title | ISBN |
+| ------ | ----- | ---- |
+| Landau & Pitaevskii | *Course of Theoretical Physics: Volume 10 - Kinetic theory* | 9780750626354 |
+| Liboff | *Introduction to the Theory of Kinetic Equations* | 9780471534129 |
+| Liboff | *Kinetic Theory: Classical, Quantum, and Relativistic Descriptions* | 9780387955513 |
+
 ### Laser physics
 
 | Author | Title | ISBN |
@@ -481,13 +489,6 @@ summary = 'The books I own.'
 | ------ | ----- | ---- |
 | Griffiths | *Introduction to Elementary Particles* | 9783527406012 |
 | Navas et al. | *Review of Particle Physics* | DOI: 10.1103/PhysRevD.110.030001 |
-
-### Physical kinetics
-
-| Author | Title | ISBN |
-| ------ | ----- | ---- |
-| Landau & Pitaevskii | *Course of Theoretical Physics: Volume 10 - Physical Kinetics* | 9780750626354 |
-| Liboff | *Introduction to the Theory of Kinetic Equations* | 9780471534129 |
 
 ### Plasma physics
 
