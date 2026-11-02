@@ -519,6 +519,7 @@ summary = 'The books I own.'
 | Fleisch | *A Student's Guide to the Schrödinger Equation* | 9781108834735 |
 | Fromhold | *Quantum Mechanics for Applied Physics and Engineering* | 9780486667416 |
 | Griffiths & Schroeter | *Introduction to Quantum Mechanics* | 9781107189638 |
+| Landau & Lifshitz | *Course of Theoretical Physics: Volume 3 - Quantum Mechanics (Non-Relativistic Theory)* | 9780750635394 |
 | Nielsen & Chuang | *Quantum Computing and Quantum Information* | 9781107002173 |
 | Shankar | *Principles of Quantum Mechanics* | 9780306447907 |
 | Susskind & Friedman | *The Theoretical Minimum: Quantum Mechanics* | 9780141977812 |
