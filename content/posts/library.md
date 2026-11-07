@@ -1,6 +1,6 @@
 +++
 title = 'My library'
-date = 2026-10-27
+date = 2026-11-07
 draft = false
 tags = ['books']
 summary = 'The books I own.'
@@ -419,7 +419,7 @@ summary = 'The books I own.'
 
 | Author | Title | ISBN |
 | ------ | ----- | ---- |
-| Landau & Pitaevskii | *Course of Theoretical Physics: Volume 10 - Kinetic theory* | 9780750626354 |
+| Landau & Pitaevskii | *Course of Theoretical Physics: Volume 10 - Kinetic Theory* | 9780750626354 |
 | Liboff | *Introduction to the Theory of Kinetic Equations* | 9780471534129 |
 | Liboff | *Kinetic Theory: Classical, Quantum, and Relativistic Descriptions* | 9780387955513 |
 
