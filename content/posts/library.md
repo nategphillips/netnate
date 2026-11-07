@@ -537,7 +537,9 @@ summary = 'The books I own.'
 | Bernath | *Spectra of Atoms and Molecules* | 9780199382576 |
 | Brown & Carrington | *Rotational Spectroscopy of Diatomic Molecules* | 9780521530781 |
 | Chase & Rabolt | *Fourier Transform Raman Spectroscopy: From Concept to Experiment* | 9780121694302 |
+| Cohen-Tannoudji, Dupont-Roc & Grynberg | *Atom-Photon Interactions: Basic Processes and Applications* | 9780471625568 |
 | Condon & Shortley | *The Theory of Atomic Spectra* | 9780521047135 |
+| Cowan | *The Theory of Atomic Structure and Spectra* | 9780520038219 |
 | Eckbreth | *Laser Diagnostics for Combustion Temperature and Species* | 9789056995324 |
 | Evans | *The Photon's Magnetic Field: Optical NMR Spectroscopy* | 9789810212650 |
 | Faisal | *Theory of Multiphoton Processes* | 9780306423178 |
@@ -568,6 +570,7 @@ summary = 'The books I own.'
 
 | Author | Title | ISBN |
 | ------ | ----- | ---- |
+| Huang | *Statistical Mechanics* | 9780471417606 |
 | Schroeder | *An Introduction to Thermal Physics* | 9780192895547 |
 
 ### String theory
